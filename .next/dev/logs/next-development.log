@@ -1,0 +1,2301 @@
+[00:00:01.593] Server  LOG      ✓ Ready in 1007ms
+[00:00:06.602] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:06.860] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:07.250] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:00:25.313] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:25.323] Server  LOG      ✓ Compiled in 26ms
+[00:00:26.119] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:55.396] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:11.136] Server  LOG      ✓ Compiled in 74ms
+[00:06:11.661] Browser ERROR   ./src/app/components/hero.js:3:12
+Parsing ecmascript source code failed
+  1 | "use client"
+  2 | export default function Hero() {
+> 3 |     return ();
+    |            ^^
+  4 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:06:12.321] Browser ERROR   ./src/app/components/hero.js:3:12
+Parsing ecmascript source code failed
+  1 | "use client"
+  2 | export default function Hero() {
+> 3 |     return ();
+    |            ^^
+  4 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:06:14.913] Browser ERROR   ./src/app/components/hero.js:3:12
+Parsing ecmascript source code failed
+  1 | "use client"
+  2 | export default function Hero() {
+> 3 |     return (
+    |            ^
+> 4 |         
+    | ^^^^^^^^
+> 5 |     );
+    | ^^^^^^
+  6 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:06:15.320] Browser ERROR   ./src/app/components/hero.js:3:12
+Parsing ecmascript source code failed
+  1 | "use client"
+  2 | export default function Hero() {
+> 3 |     return (
+    |            ^
+> 4 |         
+    | ^^^^^^^^
+> 5 |     );
+    | ^^^^^^
+  6 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:07:04.747] Server  LOG      ✓ Compiled in 73ms
+[00:08:51.656] Server  LOG      ✓ Compiled in 173ms
+[00:09:24.019] Server  LOG      ✓ Compiled in 32ms
+[00:09:24.122] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:09:24.150] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:09:34.336] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:09:34.337] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:09:43.412] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:09:43.412] Browser ERROR   ./src/app/components/hero.js:4:29
+Parsing ecmascript source code failed
+  2 | import motion from "framer-motion";
+  3 | import Image from "next/image";<
+> 4 | export default function Hero() {
+    |                             ^
+  5 |     return (
+  6 |         <section id="hero" className="border">
+  7 |             <motion.div>
+
+Unexpected token `(`. Expected jsx identifier
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:07.293] Server  LOG      ✓ Compiled in 1546ms
+[00:10:07.398] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:07.398] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:07.409] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:07.410] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:10.679] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:10.679] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:10.685] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:10.685] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:15.928] Server  LOG      ✓ Compiled in 55ms
+[00:10:16.031] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:16.031] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:16.031] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-client] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:16.031] Browser ERROR   ./src/app/components/hero.js:2:1
+Export default doesn't exist in target module
+  1 | "use client"
+> 2 | import motion from "framer-motion";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Image from "next/image";
+  4 |
+  5 | export default function Hero() {
+
+The export default was not found in module [project]/node_modules/framer-motion/dist/es/index.mjs [app-ssr] (ecmascript).
+Did you mean to import defaultOffset?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:10:44.924] Server  LOG      ✓ Compiled in 256ms
+[00:10:45.452] Browser ERROR   uncaughtError: Error: Image with src "/assets/logo.png" is missing required "width" property.
+[00:10:45.756] Browser ERROR   uncaughtError: Error: Image with src "/assets/logo.png" is missing required "width" property.
+[00:11:02.000] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:02.034] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:02.118] Server  LOG      ✓ Compiled in 27ms
+[00:11:03.641] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:03.778] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:17.760] Server  LOG      ✓ Compiled in 61ms
+[00:11:27.730] Server  LOG      ✓ Compiled in 46ms
+[00:13:15.180] Server  LOG      ✓ Compiled in 39ms
+[00:13:18.213] Server  LOG      ✓ Compiled in 46ms
+[00:13:51.079] Server  LOG      ✓ Compiled in 31ms
+[00:16:35.221] Server  LOG      ✓ Compiled in 81ms
+[00:17:01.800] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:08.134] Server  LOG      ✓ Compiled in 67ms
+[00:17:24.894] Server  LOG      ✓ Compiled in 44ms
+[00:17:32.734] Server  LOG      ✓ Compiled in 27ms
+[00:17:37.885] Server  LOG      ✓ Compiled in 26ms
+[00:17:45.686] Server  LOG      ✓ Compiled in 25ms
+[00:17:50.381] Server  LOG      ✓ Compiled in 28ms
+[00:18:14.004] Server  LOG      ✓ Compiled in 149ms
+[00:18:14.141] Browser ERROR   ./src/app/components/hero.js:8:11
+Parsing ecmascript source code failed
+   6 |     return (
+   7 |         <section id="hero" className="<section
+>  8 |   id="hero"
+     |           ^
+   9 |   className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/40 border"
+  10 | >
+  11 | ">
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:18:14.482] Browser ERROR   ./src/app/components/hero.js:8:11
+Parsing ecmascript source code failed
+   6 |     return (
+   7 |         <section id="hero" className="<section
+>  8 |   id="hero"
+     |           ^
+   9 |   className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/40 border"
+  10 | >
+  11 | ">
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:18:43.753] Server  LOG      ✓ Compiled in 62ms
+[00:19:20.744] Server  LOG      ✓ Compiled in 20ms
+[00:19:59.126] Server  LOG      ✓ Compiled in 34ms
+[00:19:59.857] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:19:59.946] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:38.014] Server  LOG      ✓ Compiled in 230ms
+[00:20:42.885] Server  LOG      ✓ Compiled in 45ms
+[00:20:42.991] Browser ERROR   ./src/app/components/hero.js:19:9
+Parsing ecmascript source code failed
+  17 |
+  18 |
+> 19 |         </section>
+     |         ^
+  20 |     );
+  21 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:20:42.991] Browser ERROR   ./src/app/components/hero.js:19:10
+Parsing ecmascript source code failed
+  17 |
+  18 |
+> 19 |         </section>
+     |          ^^^^^^^^^
+  20 |     );
+  21 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:20:43.063] Browser ERROR   ./src/app/components/hero.js:19:9
+Parsing ecmascript source code failed
+  17 |
+  18 |
+> 19 |         </section>
+     |         ^
+  20 |     );
+  21 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:20:43.063] Browser ERROR   ./src/app/components/hero.js:19:10
+Parsing ecmascript source code failed
+  17 |
+  18 |
+> 19 |         </section>
+     |          ^^^^^^^^^
+  20 |     );
+  21 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:20:49.256] Server  LOG      ✓ Compiled in 31ms
+[00:20:49.358] Browser ERROR   ./src/app/components/hero.js:21:1
+Parsing ecmascript source code failed
+  19 |         </section>
+  20 |     );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:20:49.409] Browser ERROR   ./src/app/components/hero.js:21:1
+Parsing ecmascript source code failed
+  19 |         </section>
+  20 |     );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:21:50.530] Server  LOG      ✓ Compiled in 36ms
+[00:22:03.897] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:03.898] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:10.162] Server  LOG      ✓ Compiled in 41ms
+[00:22:14.469] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:14.469] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:16.273] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:16.273] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:19.239] Server  LOG      ✓ Compiled in 31ms
+[00:22:21.492] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:21.492] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:26.223] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:26.223] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:32.072] Server  LOG      ✓ Compiled in 49ms
+[00:22:34.445] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:34.445] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:42.413] Server  LOG      ✓ Compiled in 26ms
+[00:22:44.740] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:44.740] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:44.186] Server  LOG      ✓ Compiled in 598ms
+[00:27:57.072] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:57.072] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:06.084] Server  LOG      ✓ Compiled in 34ms
+[00:28:38.725] Server  LOG      ✓ Compiled in 47ms
+[00:28:45.309] Server  LOG      ✓ Compiled in 36ms
+[00:28:58.459] Server  LOG      ✓ Compiled in 40ms
+[00:29:06.506] Server  LOG      ✓ Compiled in 38ms
+[00:29:11.349] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:29:11.349] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:30:37.794] Server  LOG      ✓ Compiled in 79ms
+[00:30:41.885] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:31:02.858] Server  LOG      ✓ Compiled in 27ms
+[00:31:06.235] Server  LOG      ✓ Compiled in 32ms
+[00:31:18.317] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:31:18.317] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:33:27.855] Server  LOG      ✓ Compiled in 47ms
+[00:33:36.432] Server  LOG      ✓ Compiled in 125ms
+[00:33:57.692] Server  LOG      ✓ Compiled in 46ms
+[00:34:02.495] Server  LOG      ✓ Compiled in 34ms
+[00:34:32.366] Server  LOG      ✓ Compiled in 65ms
+[00:34:32.469] Browser ERROR   ./src/app/components/hero.js:31:54
+Parsing ecmascript source code failed
+  29 |                 </motion.div>
+  30 |                 <motion.div>
+> 31 |                     <p><At Mariposas Therapy Services, we believe every child has the potential to soar. Our dedicated therapists provide individualized physical, occupational, and speech therapy in a nurturing environment that inspires progress, confidence, and joy in every step.</p>
+     |                                                      ^
+  32 |                 </motion.div>
+  33 |             </section>
+  34 |             
+
+Expected '</', got ','
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:34:32.765] Browser ERROR   ./src/app/components/hero.js:31:54
+Parsing ecmascript source code failed
+  29 |                 </motion.div>
+  30 |                 <motion.div>
+> 31 |                     <p><At Mariposas Therapy Services, we believe every child has the potential to soar. Our dedicated therapists provide individualized physical, occupational, and speech therapy in a nurturing environment that inspires progress, confidence, and joy in every step.</p>
+     |                                                      ^
+  32 |                 </motion.div>
+  33 |             </section>
+  34 |             
+
+Expected '</', got ','
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/hero.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/hero.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:34:35.466] Server  LOG      ✓ Compiled in 81ms
+[00:34:38.233] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:45.529] Server  LOG      ✓ Compiled in 196ms
+[00:36:48.875] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:48.875] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:51.792] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:51.792] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:29.893] Server  LOG      ✓ Compiled in 115ms
+[00:38:54.707] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:54.707] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:39:10.946] Server  LOG      ✓ Compiled in 50ms
+[01:52:52.733] Server  LOG      ✓ Compiled in 171ms
+[01:52:52.744] Browser ERROR   uncaughtError: ReferenceError: Services is not defined
+[01:52:52.749] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: Services
+[01:53:19.035] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:53:19.036] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:53:19.098] Server  LOG      ✓ Compiled in 229ms
+[01:53:22.217] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:53:22.217] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:53:22.450] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:53:22.451] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:53:23.409] Browser WARN    Image with src "/assets/logo.PNG" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:54:18.483] Server  LOG      ✓ Compiled in 145ms
+[01:54:18.591] Browser ERROR   ./src/app/components/services.js:6:9
+Parsing ecmascript source code failed
+  4 |         <section id="hero" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen z-10 bg-black/50 border-b">
+  5 |             <MotionGlobalConfi
+> 6 |         </section>
+    |         ^
+  7 |
+  8 |
+  9 |             );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:18.591] Browser ERROR   ./src/app/components/services.js:6:10
+Parsing ecmascript source code failed
+  4 |         <section id="hero" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen z-10 bg-black/50 border-b">
+  5 |             <MotionGlobalConfi
+> 6 |         </section>
+    |          ^^^^^^^^^
+  7 |
+  8 |
+  9 |             );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:18.623] Browser ERROR   ./src/app/components/services.js:6:9
+Parsing ecmascript source code failed
+  4 |         <section id="hero" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen z-10 bg-black/50 border-b">
+  5 |             <MotionGlobalConfi
+> 6 |         </section>
+    |         ^
+  7 |
+  8 |
+  9 |             );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:18.623] Browser ERROR   ./src/app/components/services.js:6:10
+Parsing ecmascript source code failed
+  4 |         <section id="hero" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen z-10 bg-black/50 border-b">
+  5 |             <MotionGlobalConfi
+> 6 |         </section>
+    |          ^^^^^^^^^
+  7 |
+  8 |
+  9 |             );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:51.822] Browser ERROR   ./src/app/components/services.js:11:1
+Parsing ecmascript source code failed
+   9 |
+  10 |             );
+> 11 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:51.825] Browser ERROR   ./src/app/components/services.js:11:1
+Parsing ecmascript source code failed
+   9 |
+  10 |             );
+> 11 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:58.718] Browser ERROR   ./src/app/components/services.js:13:1
+Parsing ecmascript source code failed
+  11 |
+  12 |     );
+> 13 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:54:58.719] Browser ERROR   ./src/app/components/services.js:13:1
+Parsing ecmascript source code failed
+  11 |
+  12 |     );
+> 13 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:55:03.351] Server  LOG      ✓ Compiled in 169ms
+[01:55:17.106] Server  LOG      ✓ Compiled in 26ms
+[01:55:46.798] Server  LOG      ✓ Compiled in 26ms
+[01:55:46.905] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true a a true a
+[01:55:46.905] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true a a true a
+[01:56:04.567] Server  LOG      ✓ Compiled in 28ms
+[01:56:08.122] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:56:08.122] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:56:26.086] Server  LOG      ✓ Compiled in 24ms
+[01:56:27.366] Server  LOG      ✓ Compiled in 23ms
+[01:56:39.928] Server  LOG      ✓ Compiled in 72ms
+[01:56:48.147] Server  LOG      ✓ Compiled in 22ms
+[01:56:53.938] Server  LOG      ✓ Compiled in 21ms
+[01:56:57.623] Server  LOG      ✓ Compiled in 25ms
+[01:57:27.917] Server  LOG      ✓ Compiled in 37ms
+[01:58:05.675] Server  LOG      ✓ Compiled in 64ms
+[01:58:12.252] Server  LOG      ✓ Compiled in 89ms
+[01:58:12.375] Browser ERROR   ./src/app/components/services.js:17:26
+Parsing ecmascript source code failed
+  15 |             <motion.div>
+  16 |                 <ul className="list-disc list-inside font-serif text-white text-lg space-y-4">
+> 17 |             </motion.div>
+     |                          ^
+> 18 |         </section>
+     | ^^^^^^^^^
+  19 |
+  20 |
+  21 |     );
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:58:12.376] Browser ERROR   ./src/app/components/services.js:17:26
+Parsing ecmascript source code failed
+  15 |             <motion.div>
+  16 |                 <ul className="list-disc list-inside font-serif text-white text-lg space-y-4">
+> 17 |             </motion.div>
+     |                          ^
+> 18 |         </section>
+     | ^^^^^^^^^
+  19 |
+  20 |
+  21 |     );
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[01:58:13.266] Server  LOG      ✓ Compiled in 31ms
+[01:58:41.291] Server  LOG      ✓ Compiled in 27ms
+[01:59:05.245] Server  LOG      ✓ Compiled in 26ms
+[01:59:05.250] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? classname className
+[01:59:05.252] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? classname className
+[01:59:27.421] Server  LOG      ✓ Compiled in 42ms
+[01:59:27.424] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. p1
+[01:59:27.426] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. p1
+[01:59:50.014] Server  LOG      ✓ Compiled in 62ms
+[02:00:02.202] Server  LOG      ✓ Compiled in 34ms
+[02:00:18.859] Server  LOG      ✓ Compiled in 244ms
+[02:00:25.830] Server  ERROR   Invalid DOM property `classname`. Did you mean `className`?
+[02:00:26.257] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? classname className
+[02:00:26.257] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:00:26.257] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:01:43.883] Server  LOG      ✓ Compiled in 48ms
+[02:01:56.509] Server  LOG      ✓ Compiled in 54ms
+[02:02:00.191] Server  LOG      ✓ Compiled in 30ms
+[02:02:39.758] Server  LOG      ✓ Compiled in 31ms
+[02:02:46.583] Server  LOG      ✓ Compiled in 31ms
+[02:02:46.658] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. p1
+[02:02:51.442] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:02:51.442] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:01.616] Server  LOG      ✓ Compiled in 26ms
+[02:03:03.788] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:03.788] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:10.297] Server  LOG      ✓ Compiled in 28ms
+[02:03:12.604] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:12.604] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:21.110] Server  LOG      ✓ Compiled in 23ms
+[02:03:23.026] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:23.026] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:03:52.688] Server  LOG      ✓ Compiled in 39ms
+[02:04:14.491] Server  LOG      ✓ Compiled in 33ms
+[02:04:27.246] Server  LOG      ✓ Compiled in 61ms
+[02:04:29.559] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:04:29.559] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:04:37.925] Server  LOG      ✓ Compiled in 41ms
+[02:04:48.917] Server  LOG      ✓ Compiled in 23ms
+[02:04:56.622] Server  LOG      ✓ Compiled in 35ms
+[02:04:58.374] Server  LOG      ✓ Compiled in 88ms
+[02:05:12.490] Server  LOG      ✓ Compiled in 43ms
+[02:05:12.656] Browser ERROR   ./src/app/components/services.js:20:31
+Parsing ecmascript source code failed
+  18 |                     animate={{opacity: 1, y: 0}}
+  19 |                     transition={{duration: 1, delay: 0.7}}
+> 20 |                     className="rounded bg-white/40 p-8>
+     |                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |                     <p>Hello</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |                         
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |             </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |         </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | }
+     | ^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:05:12.706] Browser ERROR   ./src/app/components/services.js:20:31
+Parsing ecmascript source code failed
+  18 |                     animate={{opacity: 1, y: 0}}
+  19 |                     transition={{duration: 1, delay: 0.7}}
+> 20 |                     className="rounded bg-white/40 p-8>
+     |                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |                     <p>Hello</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |                         
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |             </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |         </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 | }
+     | ^^
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:05:15.465] Server  LOG      ✓ Compiled in 36ms
+[02:05:26.965] Server  LOG      ✓ Compiled in 27ms
+[02:05:48.144] Server  LOG      ✓ Compiled in 179ms
+[02:05:59.174] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:05:59.174] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:06:04.430] Server  LOG      ✓ Compiled in 28ms
+[02:06:06.269] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:06:06.269] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:06:10.603] Server  LOG      ✓ Compiled in 33ms
+[02:06:13.145] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:06:13.145] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:07:51.930] Server  LOG      ✓ Compiled in 38ms
+[02:07:52.154] Browser ERROR   ./src/app/components/services.js:21:34
+Parsing ecmascript source code failed
+  19 |                     transition={{duration: 1, delay: 0.7}}
+  20 |                     className="rounded bg-[#ABE4A0]/40 p-8">
+> 21 |                     <h2>Hello</p>
+     |                                  ^
+> 22 |                         
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^
+  24 |
+  25 |             </section>
+  26 |         </section>
+
+Expected '</', got 'jsx text (
+                        
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:07:52.288] Browser ERROR   ./src/app/components/services.js:21:34
+Parsing ecmascript source code failed
+  19 |                     transition={{duration: 1, delay: 0.7}}
+  20 |                     className="rounded bg-[#ABE4A0]/40 p-8">
+> 21 |                     <h2>Hello</p>
+     |                                  ^
+> 22 |                         
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^
+  24 |
+  25 |             </section>
+  26 |         </section>
+
+Expected '</', got 'jsx text (
+                        
+                )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:07:55.041] Server  LOG      ✓ Compiled in 51ms
+[02:08:10.321] Server  LOG      ✓ Compiled in 21ms
+[02:08:15.941] Server  LOG      ✓ Compiled in 33ms
+[02:08:39.771] Server  LOG      ✓ Compiled in 30ms
+[02:09:06.324] Server  LOG      ✓ Compiled in 40ms
+[02:09:21.920] Server  LOG      ✓ Compiled in 67ms
+[02:09:26.247] Server  LOG      ✓ Compiled in 26ms
+[02:09:43.019] Server  LOG      ✓ Compiled in 31ms
+[02:10:44.811] Server  LOG      ✓ Compiled in 87ms
+[02:10:50.541] Server  LOG      ✓ Compiled in 33ms
+[02:11:07.633] Server  LOG      ✓ Compiled in 22ms
+[02:11:13.528] Server  LOG      ✓ Compiled in 26ms
+[02:11:39.811] Server  LOG      ✓ Compiled in 113ms
+[02:11:47.369] Server  LOG      ✓ Compiled in 20ms
+[02:11:54.257] Server  LOG      ✓ Compiled in 22ms
+[02:12:05.427] Server  LOG      ✓ Compiled in 30ms
+[02:12:08.307] Server  LOG      ✓ Compiled in 35ms
+[02:12:10.917] Server  LOG      ✓ Compiled in 146ms
+[02:12:38.288] Server  LOG      ✓ Compiled in 29ms
+[02:12:42.257] Server  LOG      ✓ Compiled in 23ms
+[02:12:47.226] Server  LOG      ✓ Compiled in 31ms
+[02:13:26.236] Server  LOG      ✓ Compiled in 32ms
+[02:13:45.491] Server  LOG      ✓ Compiled in 20ms
+[02:13:57.959] Server  LOG      ✓ Compiled in 27ms
+[02:14:06.020] Server  LOG      ✓ Compiled in 37ms
+[02:14:37.212] Server  LOG      ✓ Compiled in 40ms
+[02:15:06.004] Server  LOG      ✓ Compiled in 52ms
+[02:15:20.949] Server  LOG      ✓ Compiled in 28ms
+[02:15:36.192] Server  LOG      ✓ Compiled in 26ms
+[02:15:41.067] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:15:41.067] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:15:49.563] Server  LOG      ✓ Compiled in 34ms
+[02:16:27.417] Server  LOG      ✓ Compiled in 145ms
+[02:16:30.682] Server  LOG      ✓ Compiled in 40ms
+[02:16:38.399] Server  LOG      ✓ Compiled in 25ms
+[02:17:03.422] Server  LOG      ✓ Compiled in 56ms
+[02:17:12.256] Server  LOG      ✓ Compiled in 41ms
+[02:17:17.537] Server  LOG      ✓ Compiled in 56ms
+[02:17:22.726] Server  LOG      ✓ Compiled in 46ms
+[02:17:30.656] Server  LOG      ✓ Compiled in 74ms
+[02:18:20.243] Server  LOG      ✓ Compiled in 47ms
+[02:18:22.730] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:22.730] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:38.812] Server  LOG      ✓ Compiled in 51ms
+[02:18:41.093] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:41.093] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:49.099] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:49.099] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:58.146] Server  LOG      ✓ Compiled in 40ms
+[02:19:00.260] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:00.260] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:12.686] Server  LOG      ✓ Compiled in 24ms
+[02:19:14.729] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:14.729] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:19.076] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:19.076] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:28.709] Server  LOG      ✓ Compiled in 49ms
+[02:19:30.863] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:30.863] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:49.331] Server  LOG      ✓ Compiled in 34ms
+[02:19:55.132] Server  LOG      ✓ Compiled in 24ms
+[02:19:57.442] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:57.442] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:00.857] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:00.857] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:07.481] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:07.481] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:11.353] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:11.353] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:18.757] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:18.757] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:20:32.987] Server  LOG      ✓ Compiled in 61ms
+[02:20:39.993] Server  LOG      ✓ Compiled in 31ms
+[02:20:52.349] Server  LOG      ✓ Compiled in 30ms
+[02:20:57.531] Server  LOG      ✓ Compiled in 32ms
+[02:21:01.009] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:21:01.009] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:21:18.814] Server  LOG      ✓ Compiled in 41ms
+[02:21:42.683] Server  LOG      ✓ Compiled in 39ms
+[02:21:52.380] Server  LOG      ✓ Compiled in 32ms
+[02:21:56.042] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:21:56.042] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:23:28.656] Server  LOG      ✓ Compiled in 173ms
+[02:23:28.821] Browser ERROR   ./src/app/components/services.js:15:130
+Parsing ecmascript source code failed
+  13 |                 Our Services
+  14 |             </motion.h1>
+> 15 |             <section className="<section className="relative flex flex-col md:flex-row items-stretch justify-center m-8 p-8 gap-8">
+     |                                                                                                                                  ^^
+  16 | ">
+  17 |                 <motion.div
+  18 |                     initial={{opacity: 0, x: -20}}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:23:29.022] Browser ERROR   ./src/app/components/services.js:15:130
+Parsing ecmascript source code failed
+  13 |                 Our Services
+  14 |             </motion.h1>
+> 15 |             <section className="<section className="relative flex flex-col md:flex-row items-stretch justify-center m-8 p-8 gap-8">
+     |                                                                                                                                  ^^
+  16 | ">
+  17 |                 <motion.div
+  18 |                     initial={{opacity: 0, x: -20}}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:23:32.290] Server  LOG      ✓ Compiled in 59ms
+[02:23:32.417] Browser ERROR   ./src/app/components/services.js:15:13
+Ecmascript file had an error
+  13 |                 Our Services
+  14 |             </motion.h1>
+> 15 |             <section className="<section className="relative flex flex-col md:flex-row items-stretch justify-center m-8 p-8 gap-8>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |                     transition={{duration: 1, delay: 0.1}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |                     <h2 className="text-2xl font-serif font-semibold text-center ">Physical Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |                     <p>Our physical therapy program focuses on improving mobility, balance, coordination, and overall strength. We use fun, engaging activities to help children reach their movement milestones—whether it’s learning to walk, improving posture, or recovering from an injury.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |                     transition={{duration: 2, delay: 0.2}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border-white border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |                     <h2 className="text-2xl font-serif font-semibold text-center">Occupational Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |                     <p>Occupational therapy helps children develop the fine motor, sensory, and self-care skills they need for daily life. From handwriting and dressing to focus and play, our therapists create personalized plans that encourage confidence and independence in every child.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |                     transition={{duration: 3, delay: 0.3}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border- border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |                     <h2 className="text-2xl font-serif font-semibold text-center">Speech Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |                     <p>Speech therapy at Mariposas Therapy Services supports communication, language development, and feeding skills. We help children express themselves clearly and confidently through interactive, evidence-based sessions that make learning to communicate exciting and rewarding.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |             </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  42 |         </section>
+  43 |
+  44 |
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:23:32.486] Browser ERROR   ./src/app/components/services.js:15:13
+Ecmascript file had an error
+  13 |                 Our Services
+  14 |             </motion.h1>
+> 15 |             <section className="<section className="relative flex flex-col md:flex-row items-stretch justify-center m-8 p-8 gap-8>
+     |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 16 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 17 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 18 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 19 |                     transition={{duration: 1, delay: 0.1}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 20 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 21 |                     <h2 className="text-2xl font-serif font-semibold text-center ">Physical Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |                     <p>Our physical therapy program focuses on improving mobility, balance, coordination, and overall strength. We use fun, engaging activities to help children reach their movement milestones—whether it’s learning to walk, improving posture, or recovering from an injury.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |                     transition={{duration: 2, delay: 0.2}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border-white border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |                     <h2 className="text-2xl font-serif font-semibold text-center">Occupational Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |                     <p>Occupational therapy helps children develop the fine motor, sensory, and self-care skills they need for daily life. From handwriting and dressing to focus and play, our therapists create personalized plans that encourage confidence and independence in every child.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |                 <motion.div
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |                     initial={{opacity: 0, x: -20}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |                     animate={{opacity: 1, x: 0}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |                     transition={{duration: 3, delay: 0.3}}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |                     className="rounded-md bg-[#ABE4A0]/40 p-8 border- border-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |                     <h2 className="text-2xl font-serif font-semibold text-center">Speech Therapy</h2>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |                     <p>Speech therapy at Mariposas Therapy Services supports communication, language development, and feeding skills. We help children express themselves clearly and confidently through interactive, evidence-based sessions that make learning to communicate exciting and rewarding.</p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |                 </motion.div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |             </section>
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+  42 |         </section>
+  43 |
+  44 |
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[02:25:17.940] Server  LOG      ✓ Compiled in 233ms
+[02:25:21.737] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:25:21.737] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:25:34.793] Server  LOG      ✓ Compiled in 49ms
+[02:25:58.316] Server  LOG      ✓ Compiled in 25ms
+[02:26:12.722] Server  LOG      ✓ Compiled in 23ms
+[02:26:30.242] Server  LOG      ✓ Compiled in 39ms
+[02:26:41.354] Server  LOG      ✓ Compiled in 28ms
+[02:26:51.108] Server  LOG      ✓ Compiled in 24ms
+[02:26:53.758] Server  LOG      ✓ Compiled in 18ms
+[02:27:28.207] Server  LOG      ✓ Compiled in 68ms
+[02:27:56.326] Server  LOG      ✓ Compiled in 20ms
+[02:28:05.835] Server  LOG      ✓ Compiled in 55ms
+[02:28:28.391] Server  LOG      ✓ Compiled in 214ms
+[02:28:32.018] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:32.018] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:36.605] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:36.606] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:40.101] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:28:40.101] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:29:17.409] Server  LOG      ✓ Compiled in 100ms
+[02:29:43.251] Server  LOG      ✓ Compiled in 37ms
+[02:29:51.174] Server  LOG      ✓ Compiled in 31ms
+[02:30:06.977] Server  LOG      ✓ Compiled in 37ms
+[02:30:33.353] Server  LOG      ✓ Compiled in 21ms
+[02:31:13.931] Server  LOG      ✓ Compiled in 32ms
+[02:31:24.120] Server  LOG      ✓ Compiled in 43ms
+[02:32:38.283] Server  LOG      ✓ Compiled in 140ms
+[02:32:41.379] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:41.379] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:44.501] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:44.501] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:55.201] Server  LOG      ✓ Compiled in 37ms
+[02:32:59.356] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:32:59.356] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:03.857] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:03.857] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:22.517] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:22.517] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:29.512] Server  LOG      ✓ Compiled in 79ms
+[02:33:33.225] Server  LOG      ✓ Compiled in 58ms
+[02:33:41.382] Server  LOG      ✓ Compiled in 67ms
+[02:33:43.895] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:33:43.896] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:06.514] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:06.514] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:09.899] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:09.899] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:12.795] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:34:12.795] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:35:03.008] Server  LOG      ✓ Compiled in 122ms
+[02:35:06.978] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:35:06.978] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:35:09.740] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:35:09.740] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:37:18.576] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:37:18.577] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:13.273] Server  LOG      ✓ Compiled in 187ms
+[02:38:17.964] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:17.964] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:25.693] Server  LOG      ✓ Compiled in 47ms
+[02:38:43.959] Server  LOG      ✓ Compiled in 29ms
+[02:38:46.853] Server  LOG      ✓ Compiled in 54ms
+[02:38:49.187] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:49.187] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:57.776] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:38:57.776] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:39:04.220] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:39:04.220] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:39:25.177] Server  LOG      ✓ Compiled in 38ms
+[02:39:29.692] Server  LOG      ✓ Compiled in 21ms
+[02:39:36.161] Server  LOG      ✓ Compiled in 45ms
+[02:39:38.837] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:39:38.837] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:41:16.034] Server  LOG      ✓ Compiled in 74ms
+[02:41:16.706] Server  LOG      ✓ Compiled in 31ms
+[02:48:31.863] Server  LOG      ✓ Compiled in 144ms
+[02:48:36.362] Server  LOG      ✓ Compiled in 65ms
+[02:48:49.583] Server  LOG      ✓ Compiled in 34ms
+[02:48:52.823] Server  LOG      ✓ Compiled in 35ms
+[02:49:06.551] Server  LOG      ✓ Compiled in 33ms
+[02:49:17.280] Server  LOG      ✓ Compiled in 25ms
+[02:49:19.686] Server  LOG      ✓ Compiled in 118ms
+[02:49:36.265] Server  LOG      ✓ Compiled in 37ms
+[02:49:47.515] Server  LOG      ✓ Compiled in 23ms
+[02:49:50.240] Server  LOG      ✓ Compiled in 64ms
+[02:49:52.997] Server  LOG      ✓ Compiled in 36ms
+[02:49:56.710] Server  LOG      ✓ Compiled in 31ms
+[02:50:27.879] Server  LOG      ✓ Compiled in 126ms
+[02:50:37.013] Server  LOG      ✓ Compiled in 90ms
+[02:50:44.510] Server  LOG      ✓ Compiled in 76ms
+[02:50:49.509] Server  LOG      ✓ Compiled in 25ms
+[02:50:56.091] Server  LOG      ✓ Compiled in 30ms
+[02:50:58.477] Server  LOG      ✓ Compiled in 55ms
+[02:51:10.456] Server  LOG      ✓ Compiled in 29ms
+[02:51:11.812] Server  LOG      ✓ Compiled in 26ms
+[02:51:19.271] Server  LOG      ✓ Compiled in 30ms
+[02:51:21.499] Server  LOG      ✓ Compiled in 30ms
+[02:51:24.470] Server  LOG      ✓ Compiled in 40ms
+[02:51:31.149] Server  LOG      ✓ Compiled in 37ms
+[02:51:50.254] Server  LOG      ✓ Compiled in 38ms
+[02:52:00.286] Server  LOG      ✓ Compiled in 65ms
+[02:52:03.831] Server  LOG      ✓ Compiled in 37ms
+[02:53:04.000] Server  LOG      ✓ Compiled in 55ms
+[02:53:07.081] Server  LOG      ✓ Compiled in 61ms
+[02:53:25.192] Server  LOG      ✓ Compiled in 120ms
+[02:53:28.610] Server  LOG      ✓ Compiled in 30ms
+[02:53:39.863] Server  LOG      ✓ Compiled in 49ms
+[02:53:47.367] Server  LOG      ✓ Compiled in 82ms
+[02:53:53.612] Server  LOG      ✓ Compiled in 35ms
+[02:53:58.670] Server  LOG      ✓ Compiled in 87ms
+[02:54:02.055] Server  LOG      ✓ Compiled in 28ms
+[02:56:21.832] Server  LOG      ✓ Compiled in 147ms
+[02:57:14.374] Server  LOG      ✓ Compiled in 86ms
+[02:57:22.357] Server  LOG      ✓ Compiled in 52ms
+[02:58:26.098] Server  LOG      ✓ Compiled in 72ms
+[02:58:50.412] Server  LOG      ✓ Compiled in 51ms
+[02:59:26.837] Server  LOG      ✓ Compiled in 27ms
+[02:59:31.097] Server  LOG      ✓ Compiled in 28ms
+[02:59:44.106] Server  LOG      ✓ Compiled in 32ms
+[02:59:48.718] Server  LOG      ✓ Compiled in 29ms
+[02:59:58.241] Server  LOG      ✓ Compiled in 75ms
+[03:00:06.875] Server  LOG      ✓ Compiled in 42ms
+[03:00:11.346] Server  LOG      ✓ Compiled in 35ms
+[03:00:21.843] Server  LOG      ✓ Compiled in 24ms
+[03:00:43.896] Server  LOG      ✓ Compiled in 29ms
+[03:01:19.671] Server  LOG      ✓ Compiled in 43ms
+[03:01:23.283] Server  LOG      ✓ Compiled in 34ms
+[03:01:53.580] Server  LOG      ✓ Compiled in 114ms
+[03:01:59.930] Server  LOG      ✓ Compiled in 29ms
+[03:03:30.102] Server  LOG      ✓ Compiled in 98ms
+[03:04:11.777] Server  LOG      ✓ Compiled in 44ms
+[03:04:43.181] Server  LOG      ✓ Compiled in 37ms
+[03:04:52.186] Server  LOG      ✓ Compiled in 34ms
+[03:04:58.768] Server  LOG      ✓ Compiled in 30ms
+[03:05:02.950] Server  LOG      ✓ Compiled in 32ms
+[03:05:29.838] Server  LOG      ✓ Compiled in 40ms
+[03:06:01.794] Server  LOG      ✓ Compiled in 37ms
+[03:06:19.059] Server  LOG      ✓ Compiled in 35ms
+[03:06:25.308] Server  LOG      ✓ Compiled in 25ms
+[03:07:30.225] Server  LOG      ✓ Compiled in 36ms
+[03:07:44.586] Server  LOG      ✓ Compiled in 57ms
+[03:08:59.586] Server  LOG      ✓ Compiled in 82ms
+[03:09:12.189] Server  LOG      ✓ Compiled in 32ms
+[03:09:17.251] Server  LOG      ✓ Compiled in 29ms
+[03:09:26.218] Server  LOG      ✓ Compiled in 23ms
+[03:09:29.115] Server  LOG      ✓ Compiled in 41ms
+[03:10:01.532] Server  LOG      ✓ Compiled in 68ms
+[03:10:33.877] Server  LOG      ✓ Compiled in 57ms
+[03:10:44.491] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:10:44.491] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:10:56.369] Server  LOG      ✓ Compiled in 66ms
+[03:11:10.400] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:11:10.400] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:13:03.666] Server  LOG      ✓ Compiled in 94ms
+[03:13:40.194] Server  LOG      ✓ Compiled in 40ms
+[03:14:02.006] Server  LOG      ✓ Compiled in 118ms
+[03:14:26.940] Server  LOG      ✓ Compiled in 29ms
+[03:14:28.032] Server  LOG      ✓ Compiled in 323ms
+[03:14:28.158] Browser ERROR   ./src/app/page.js:15:7
+Parsing ecmascript source code failed
+  13 |   return (
+  14 |     <main id="home" className="min-h-screen text-white relative"
+> 15 |       <video
+     |       ^
+  16 |         id="video"
+  17 |         autoPlay
+  18 |         muted
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:14:28.189] Browser ERROR   ./src/app/page.js:15:7
+Parsing ecmascript source code failed
+  13 |   return (
+  14 |     <main id="home" className="min-h-screen text-white relative"
+> 15 |       <video
+     |       ^
+  16 |         id="video"
+  17 |         autoPlay
+  18 |         muted
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:14:31.340] Browser ERROR   ./src/app/page.js:15:7
+Parsing ecmascript source code failed
+  13 |   return (
+  14 |     <main id="home" className="min-h-screen text-white relative"
+> 15 |       <video
+     |       ^
+  16 |         id="video"
+  17 |         autoPlay
+  18 |         muted
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:14:31.343] Browser ERROR   ./src/app/page.js:15:7
+Parsing ecmascript source code failed
+  13 |   return (
+  14 |     <main id="home" className="min-h-screen text-white relative"
+> 15 |       <video
+     |       ^
+  16 |         id="video"
+  17 |         autoPlay
+  18 |         muted
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:14:43.545] Server  LOG      ✓ Compiled in 70ms
+[03:18:16.617] Server  LOG      ✓ Compiled in 43ms
+[03:18:23.609] Server  LOG      ✓ Compiled in 41ms
+[03:18:26.142] Server  LOG      ✓ Compiled in 42ms
+[03:19:38.640] Server  LOG      ✓ Compiled in 216ms
+[03:22:58.276] Server  LOG      ✓ Compiled in 304ms
+[03:24:48.036] Server  LOG      ✓ Compiled in 141ms
+[03:25:15.793] Server  LOG      ✓ Compiled in 46ms
+[03:25:58.203] Server  LOG      ✓ Compiled in 52ms
+[03:26:13.058] Server  LOG      ✓ Compiled in 75ms
+[03:26:20.019] Server  LOG      ✓ Compiled in 42ms
+[03:26:45.923] Server  LOG      ✓ Compiled in 60ms
+[03:27:28.914] Server  LOG      ✓ Compiled in 125ms
+[03:28:02.886] Server  LOG      ✓ Compiled in 65ms
+[03:28:07.540] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:28:07.540] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:28:47.861] Server  LOG      ✓ Compiled in 76ms
+[03:29:06.220] Server  LOG      ✓ Compiled in 52ms
+[03:29:16.010] Server  LOG      ✓ Compiled in 88ms
+[03:29:37.402] Server  LOG      ✓ Compiled in 35ms
+[03:29:41.552] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:29:41.684] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:29:51.906] Server  LOG      ✓ Compiled in 64ms
+[03:30:23.509] Server  LOG      ✓ Compiled in 44ms
+[03:30:32.832] Server  LOG      ✓ Compiled in 38ms
+[03:30:35.483] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:30:35.483] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:30:44.413] Server  LOG      ✓ Compiled in 44ms
+[03:30:48.593] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:30:48.593] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:30:54.293] Server  LOG      ✓ Compiled in 54ms
+[03:30:59.630] Server  LOG      ✓ Compiled in 49ms
+[03:31:12.137] Server  LOG      ✓ Compiled in 35ms
+[03:31:24.944] Server  LOG      ✓ Compiled in 34ms
+[03:31:30.770] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:30.770] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:45.321] Server  LOG      ✓ Compiled in 39ms
+[03:31:49.844] Server  LOG      ✓ Compiled in 34ms
+[03:32:17.609] Server  LOG      ✓ Compiled in 51ms
+[03:32:27.591] Server  LOG      ✓ Compiled in 32ms
+[03:32:39.204] Server  LOG      ✓ Compiled in 40ms
+[03:32:44.443] Server  LOG      ✓ Compiled in 38ms
+[03:32:54.730] Server  LOG      ✓ Compiled in 36ms
+[03:33:01.077] Server  LOG      ✓ Compiled in 29ms
+[03:50:56.006] Server  LOG      ✓ Compiled in 170ms
+[03:51:44.312] Server  LOG      ✓ Compiled in 251ms
+[03:52:25.847] Server  LOG      ✓ Compiled in 72ms
+[03:52:35.329] Server  LOG      ✓ Compiled in 44ms
+[03:52:44.441] Server  LOG      ✓ Compiled in 105ms
+[03:52:48.779] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:52:48.779] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:53:51.131] Server  LOG      ✓ Compiled in 73ms
+[03:54:05.362] Server  LOG      ✓ Compiled in 54ms
+[03:55:58.901] Server  LOG      ✓ Compiled in 244ms
+[03:56:13.595] Server  LOG      ✓ Compiled in 51ms
+[03:57:53.516] Server  LOG      ✓ Compiled in 668ms
+[03:57:53.697] Browser ERROR   ./src/app/components/services.js:19:116
+Parsing ecmascript source code failed
+  17 |             </motion.h1>
+  18 |
+> 19 |             <section className="<section className="relative flex flex-wrap justify-center gap-8 p-8 px-12 lg:px-24">
+     |                                                                                                                    ^^
+  20 | ">
+  21 |
+  22 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:58:07.871] Server  LOG      ✓ Compiled in 312ms
+[03:58:09.398] Browser ERROR   ./src/app/components/services.js:19:116
+Parsing ecmascript source code failed
+  17 |             </motion.h1>
+  18 |
+> 19 |             <section className="<section className="relative flex flex-wrap justify-center gap-8 p-8 px-12 lg:px-24">
+     |                                                                                                                    ^^
+  20 | ">
+  21 |
+  22 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:58:25.762] Server  LOG      ✓ Compiled in 60ms
+[03:58:34.643] Server  LOG      ✓ Compiled in 41ms
+[03:58:35.825] Server  LOG      ✓ Compiled in 154ms
+[03:58:35.930] Browser ERROR   ./src/app/components/services.js:19:116
+Parsing ecmascript source code failed
+  17 |             </motion.h1>
+  18 |
+> 19 |             <section className="<section className="relative flex flex-wrap justify-center gap-8 p-8 px-12 lg:px-24">
+     |                                                                                                                    ^^
+  20 |
+  21 |
+  22 |                 {/* Physical Therapy */}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:58:35.988] Browser ERROR   ./src/app/components/services.js:19:116
+Parsing ecmascript source code failed
+  17 |             </motion.h1>
+  18 |
+> 19 |             <section className="<section className="relative flex flex-wrap justify-center gap-8 p-8 px-12 lg:px-24">
+     |                                                                                                                    ^^
+  20 |
+  21 |
+  22 |                 {/* Physical Therapy */}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[03:58:43.651] Server  LOG      ✓ Compiled in 51ms
+[03:59:57.290] Server  LOG      ✓ Compiled in 165ms
+[04:00:42.854] Server  LOG      ✓ Compiled in 54ms
+[04:00:57.731] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:01:38.883] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:01:38.883] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:03:54.196] Server  LOG      ✓ Compiled in 370ms
+[04:03:54.329] Browser ERROR   ./src/app/components/services.js:8:13
+Parsing ecmascript source code failed
+   6 |         <section
+   7 |             id="services"
+>  8 |             <section id="services" className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/50 border-b px-6">
+     |             ^
+   9 |
+  10 |         >
+  11 |             <motion.h1
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:03:54.941] Browser ERROR   ./src/app/components/services.js:8:13
+Parsing ecmascript source code failed
+   6 |         <section
+   7 |             id="services"
+>  8 |             <section id="services" className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/50 border-b px-6">
+     |             ^
+   9 |
+  10 |         >
+  11 |             <motion.h1
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:03:58.622] Server  LOG      ✓ Compiled in 40ms
+[04:04:04.470] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:04:04.470] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:04:12.567] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:04:16.085] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:06:22.950] Server  LOG      ✓ Compiled in 352ms
+[04:06:52.067] Server  LOG      ✓ Compiled in 85ms
+[04:08:45.035] Server  LOG      ✓ Compiled in 37ms
+[04:09:27.085] Server  LOG      ✓ Compiled in 166ms
+[04:09:41.809] Server  LOG      ✓ Compiled in 81ms
+[04:09:52.167] Server  LOG      ✓ Compiled in 41ms
+[04:10:02.873] Server  LOG      ✓ Compiled in 34ms
+[04:10:41.823] Server  LOG      ✓ Compiled in 61ms
+[04:11:01.217] Server  LOG      ✓ Compiled in 47ms
+[04:11:14.499] Server  LOG      ✓ Compiled in 103ms
+[04:11:35.994] Server  LOG      ✓ Compiled in 42ms
+[04:12:03.254] Server  LOG      ✓ Compiled in 71ms
+[04:12:11.937] Server  LOG      ✓ Compiled in 152ms
+[04:12:14.589] Server  LOG      ✓ Compiled in 48ms
+[04:12:17.630] Server  LOG      ✓ Compiled in 35ms
+[04:12:26.791] Server  LOG      ✓ Compiled in 24ms
+[04:12:51.656] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:12:51.657] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:16:12.588] Server  LOG      ✓ Compiled in 892ms
+[04:17:57.216] Server  LOG      ✓ Compiled in 123ms
+[04:18:01.396] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:18:46.357] Server  LOG      ✓ Compiled in 85ms
+[04:19:06.463] Server  LOG      ✓ Compiled in 59ms
+[04:20:27.221] Server  LOG      ✓ Compiled in 59ms
+[04:21:11.424] Server  LOG      ✓ Compiled in 59ms
+[04:21:43.420] Server  LOG      ✓ Compiled in 182ms
+[04:21:46.606] Server  LOG      ✓ Compiled in 38ms
+[04:22:13.157] Server  LOG      ✓ Compiled in 43ms
+[04:22:27.836] Server  LOG      ✓ Compiled in 88ms
+[04:22:36.279] Server  LOG      ✓ Compiled in 102ms
+[04:22:38.707] Server  LOG      ✓ Compiled in 29ms
+[04:22:42.554] Server  LOG      ✓ Compiled in 28ms
+[04:22:50.737] Server  LOG      ✓ Compiled in 62ms
+[04:23:02.953] Server  LOG      ✓ Compiled in 40ms
+[04:26:26.439] Server  LOG      ✓ Compiled in 337ms
+[04:26:27.000] Browser ERROR   ./src/app/page.js:14:5
+Parsing ecmascript source code failed
+  12 | export default function Home() {
+  13 |   return (
+> 14 |     <<main id="home" className="min-h-screen text-white relative overflow-x-hidden">
+     |     ^^
+  15 |
+  16 |       <video
+  17 |         id="video"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:26:27.856] Browser ERROR   ./src/app/page.js:14:5
+Parsing ecmascript source code failed
+  12 | export default function Home() {
+  13 |   return (
+> 14 |     <<main id="home" className="min-h-screen text-white relative overflow-x-hidden">
+     |     ^^
+  15 |
+  16 |       <video
+  17 |         id="video"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:26:29.774] Server  LOG      ✓ Compiled in 105ms
+[04:28:59.865] Server  LOG      ✓ Compiled in 115ms
+[04:29:17.064] Server  LOG      ✓ Compiled in 65ms
+[04:29:40.745] Server  LOG      ✓ Compiled in 41ms
+[04:30:05.603] Server  LOG      ✓ Compiled in 40ms
+[04:30:18.480] Server  LOG      ✓ Compiled in 51ms
+[04:30:25.006] Server  LOG      ✓ Compiled in 47ms
+[04:30:32.897] Server  LOG      ✓ Compiled in 98ms
+[04:30:38.061] Server  LOG      ✓ Compiled in 50ms
+[04:30:49.348] Server  LOG      ✓ Compiled in 36ms
+[04:30:58.423] Server  LOG      ✓ Compiled in 51ms
+[04:32:24.636] Server  LOG      ✓ Compiled in 41ms
+[04:32:58.585] Server  LOG      ✓ Compiled in 56ms
+[04:35:09.236] Server  LOG      ✓ Compiled in 146ms
+[04:36:13.544] Server  LOG      ✓ Compiled in 52ms
+[04:36:18.647] Server  LOG      ✓ Compiled in 224ms
+[04:36:18.768] Browser ERROR   ./src/app/components/services.js:87:25
+Parsing ecmascript source code failed
+  85 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  86 |                             I am a Patient
+> 87 |                         </button>
+     |                         ^
+  88 |                     </section>
+  89 |                 </motion.div>
+  90 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:18.768] Browser ERROR   ./src/app/components/services.js:87:26
+Parsing ecmascript source code failed
+  85 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  86 |                             I am a Patient
+> 87 |                         </button>
+     |                          ^^^^^^^^
+  88 |                     </section>
+  89 |                 </motion.div>
+  90 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:19.407] Browser ERROR   ./src/app/components/services.js:87:25
+Parsing ecmascript source code failed
+  85 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  86 |                             I am a Patient
+> 87 |                         </button>
+     |                         ^
+  88 |                     </section>
+  89 |                 </motion.div>
+  90 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:19.407] Browser ERROR   ./src/app/components/services.js:87:26
+Parsing ecmascript source code failed
+  85 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  86 |                             I am a Patient
+> 87 |                         </button>
+     |                          ^^^^^^^^
+  88 |                     </section>
+  89 |                 </motion.div>
+  90 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:26.961] Browser ERROR   ./src/app/components/services.js:66:26
+Parsing ecmascript source code failed
+  64 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  65 |                         Occupational Therapy
+> 66 |                     </h2>
+     |                          ^
+> 67 |                     <p className="font-serif text-center md:text-left">
+     | ^^^^^^^^^^^^^^^^^^^^^
+  68 |                         Occupational therapy helps children develop the fine motor, sensory,
+  69 |                         and self-care skills they need for daily life. From handwriting and
+  70 |                         dressing to focus and play, our therapists create personalized plans
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:26.968] Browser ERROR   ./src/app/components/services.js:66:26
+Parsing ecmascript source code failed
+  64 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  65 |                         Occupational Therapy
+> 66 |                     </h2>
+     |                          ^
+> 67 |                     <p className="font-serif text-center md:text-left">
+     | ^^^^^^^^^^^^^^^^^^^^^
+  68 |                         Occupational therapy helps children develop the fine motor, sensory,
+  69 |                         and self-care skills they need for daily life. From handwriting and
+  70 |                         dressing to focus and play, our therapists create personalized plans
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:33.634] Server  LOG      ✓ Compiled in 53ms
+[04:36:36.647] Server  LOG      ✓ Compiled in 55ms
+[04:36:36.750] Browser ERROR   ./src/app/components/services.js:81:25
+Parsing ecmascript source code failed
+  79 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  80 |                             I am a Therapist
+> 81 |                         </button>
+     |                         ^
+  82 |
+  83 |                         {/* Button 2: Green bg + black text → White border on hover */}
+  84 |                         <button
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:36.751] Browser ERROR   ./src/app/components/services.js:81:26
+Parsing ecmascript source code failed
+  79 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  80 |                             I am a Therapist
+> 81 |                         </button>
+     |                          ^^^^^^^^
+  82 |
+  83 |                         {/* Button 2: Green bg + black text → White border on hover */}
+  84 |                         <button
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:36.857] Browser ERROR   ./src/app/components/services.js:81:25
+Parsing ecmascript source code failed
+  79 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  80 |                             I am a Therapist
+> 81 |                         </button>
+     |                         ^
+  82 |
+  83 |                         {/* Button 2: Green bg + black text → White border on hover */}
+  84 |                         <button
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:36.857] Browser ERROR   ./src/app/components/services.js:81:26
+Parsing ecmascript source code failed
+  79 | className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8"
+  80 |                             I am a Therapist
+> 81 |                         </button>
+     |                          ^^^^^^^^
+  82 |
+  83 |                         {/* Button 2: Green bg + black text → White border on hover */}
+  84 |                         <button
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/services.js [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/services.js [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[04:36:55.509] Server  LOG      ✓ Compiled in 164ms
+[04:37:02.132] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:37:02.132] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:37:40.524] Server  LOG      ✓ Compiled in 74ms
+[04:37:42.951] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:37:42.951] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:38:11.983] Server  LOG      ✓ Compiled in 44ms
+[04:38:15.413] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:38:15.414] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:38:21.892] Server  LOG      ✓ Compiled in 50ms
+[04:38:37.708] Server  LOG      ✓ Compiled in 65ms
+[04:38:43.142] Server  LOG      ✓ Compiled in 69ms
+[04:38:45.624] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:38:45.624] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:40:16.754] Server  LOG      ✓ Compiled in 90ms
+[04:40:35.562] Server  LOG      ✓ Compiled in 54ms
+[04:41:03.225] Server  LOG      ✓ Compiled in 71ms
+[04:41:12.176] Server  LOG      ✓ Compiled in 171ms
+[04:41:18.003] Server  LOG      ✓ Compiled in 44ms
+[04:41:36.155] Server  LOG      ✓ Compiled in 56ms
+[04:41:48.137] Server  LOG      ✓ Compiled in 120ms
+[04:41:56.097] Server  LOG      ✓ Compiled in 54ms
+[04:42:07.335] Server  LOG      ✓ Compiled in 46ms
+[04:42:14.008] Server  LOG      ✓ Compiled in 34ms

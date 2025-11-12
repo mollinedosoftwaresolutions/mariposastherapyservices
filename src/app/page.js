@@ -4,15 +4,16 @@
 
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import Services from "./components/services";
 
 
 
 
 export default function Home() {
   return (
-    <main id="home" className="min-h-screen text-white relative">
+    <main id="home" className="min-h-screen text-white relative overflow-x-hidden">
       <video
-        id="background-video"
+        id="video"
         autoPlay
         muted
         loop
@@ -22,9 +23,11 @@ export default function Home() {
       </video>
       <div className="absolute inset-0  backdrop-blur-sm z-0" />
 
-      {/* Navigation Bar */}
+      {/* Navigation Bar */ }
       <Navbar />
       <Hero />
+      <Services/>
+
      
 
 
@@ -33,6 +36,6 @@ export default function Home() {
 
 
 
-    </main>
+    </main >
   );
 }

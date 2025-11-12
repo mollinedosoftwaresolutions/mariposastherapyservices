@@ -33,7 +33,7 @@ export default function Navbar() {
                 {menuOpen ? "✕" : "☰"}
             </button>
             <div
-        className={`absolute top-full left-0 w-full md:hidden bg-[#ABE4A0]/80 backdrop-blur-sm shadow-lg duration-500 ease-in-out ${
+        className={`absolute top-full left-0 w-full md:hidden bg-[#ABE4A0]/90 backdrop-blur-sm shadow-lg duration-500 ease-in-out ${
           menuOpen
             ? "translate-y-0 opacity-100"
             : "-translate-y-3 opacity-0 pointer-events-none"
