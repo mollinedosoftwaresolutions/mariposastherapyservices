@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Services() {
-    // One hover state per card (3 cards)
+
     const [hoverTherapist, setHoverTherapist] = useState([false, false, false]);
     const [hoverPatient, setHoverPatient] = useState([false, false, false]);
 
@@ -36,7 +36,7 @@ export default function Services() {
     return (
         <section
             id="services"
-            className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/50 border-b"
+            className="relative flex flex-col items-center justify-center min-h-screen z-10 bg-black/50 border-b border-white/20 pb-20"
         >
             <motion.h1
                 initial={{ opacity: 0, y: 50 }}
@@ -53,9 +53,9 @@ export default function Services() {
                     <motion.div
                         key={i}
                         initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 3, delay: 1 + i * 0.3 }}
-                        className="rounded-2xl bg-[#ABE4A0]/50 backdrop-blur-lg p-8 border-1 shadow-lg border-white 
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 3, delay: i * 0.5 }}
+                        className="rounded-2xl bg-[#ABE4A0]/50 backdrop-blur-lg p-8 border-1 shadow-lg border-white/80 
                                    hover:scale-105 transition-all duration-300 h-full flex flex-col"
                     >
                         <h2 className="text-2xl font-serif font-semibold text-center mb-4">
