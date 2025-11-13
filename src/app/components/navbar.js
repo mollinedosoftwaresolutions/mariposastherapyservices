@@ -33,7 +33,7 @@ export default function Navbar() {
                 {menuOpen ? "✕" : "☰"}
             </button>
             <div
-        className={`absolute top-full left-0 w-full md:hidden bg-[#ABE4A0]/90 backdrop-blur-sm shadow-lg duration-500 ease-in-out ${
+        className={`absolute top-full left-0 w-full md:hidden bg-[#ABE4A0]/80 backdrop-blur-sm shadow-lg duration-500 ease-in-out ${
           menuOpen
             ? "translate-y-0 opacity-100"
             : "-translate-y-3 opacity-0 pointer-events-none"
@@ -41,10 +41,10 @@ export default function Navbar() {
       >
         <ul className="flex flex-col items-center space-y-4 p-4 text-white font-serif font-bold">
           <a href="/" className="hover:text-green-300 transition-colors duration-200">Home</a>
-                <a href="#services" className="hover:text-green-300 transition-colors duration-200">Services</a>
-                <a href="#contact" className="hover:text-green-300 transition-colors duration-200">Contact</a>
-                <a href="/patients" className="hover:text-green-300 transition-colors duration-200">Patients</a>
-                <a href="/therapists" className="hover:text-green-300 transition-colors duration-200">Therapists</a>
+                <a href="#services" onClick={() => setMenuOpen(false)} className="hover:text-green-300 transition-colors duration-200">Services</a>
+                <a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-green-300 transition-colors duration-200">Contact</a>
+                <a href="/patients" onClick={() => setMenuOpen(false)} className="hover:text-green-300 transition-colors duration-200">Patients</a>
+                <a href="/therapists" onClick={() => setMenuOpen(false)} className="hover:text-green-300 transition-colors duration-200">Therapists</a>
         </ul>
       </div>
 
