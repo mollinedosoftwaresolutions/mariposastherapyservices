@@ -1,3 +1,4 @@
+"use client"
 export default function Contact_Info() {
     return (
         <section className="flex flex-col relative z-10 border-b border-white/20 bg-black/50 font-serif p-10 items-center">

@@ -1,3 +1,4 @@
+"use client"
 export const metadata = {
   title: "Therapist Job Application",
   description:
@@ -9,7 +10,7 @@ export const metadata = {
     url: "https://yourdomain.com/therapists",
   },
 };
-"use client"
+
 
 import Background from "../components/background";
 import Footer from "../components/footer";
