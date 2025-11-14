@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Mariposas Therapy Services",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
         alt: "Mariposas Therapy Services",
