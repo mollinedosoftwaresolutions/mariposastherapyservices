@@ -12,7 +12,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
- 
   title: {
     default: "Mariposas Therapy Services | Pediatric Therapy in South Florida",
     template: "%s | Mariposas Therapy Services",
@@ -35,7 +34,7 @@ export const metadata = {
     siteName: "Mariposas Therapy Services",
     images: [
       {
-        url: "https://mariposastherapyservices-2stt.vercel.app/logo.jpg",
+        url: "/logo.png",   // only for OG (social media), NOT favicon
         width: 800,
         height: 800,
         alt: "Mariposas Therapy Services",
@@ -47,19 +46,19 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/favicon.ico", // THE ONLY FAVICON
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.jpg" sizes="any" />
-        <link rel="apple-touch-icon" href="/logo.jpg" />
-        <link rel="mask-icon" href="/logo.jpg" color="#5bbad5" />
+        {/* Ensure favicon is used everywhere */}
+        <link rel="icon" href="/favicon.ico" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
