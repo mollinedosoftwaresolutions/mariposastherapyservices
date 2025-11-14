@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://https://mariposastherapyservices-2stt.vercel.app/sitemap.xml
+Sitemap: https://mariposatherapyservices-2stt.vercel.app/sitemap.xml
