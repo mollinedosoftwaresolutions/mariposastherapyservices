@@ -6,6 +6,8 @@ export default function Services() {
 
     const [hoverTherapist, setHoverTherapist] = useState([false, false, false]);
     const [hoverPatient, setHoverPatient] = useState([false, false, false]);
+    
+
 
     const cards = [
         {
@@ -55,8 +57,9 @@ export default function Services() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 3, delay: i * 0.5 }}
-                        className="rounded-2xl bg-[#ABE4A0]/50 backdrop-blur-lg p-8 border-1 shadow-lg border-white/80 
-                                   hover:scale-105 transition-all duration-300 h-full flex flex-col"
+                        className="rounded-2xl bg-[#ABE4A0]/50 backdrop-blur-lg p-8 border-1 shadow-lg border-white/80
+             hover:scale-105 transition-all duration-300 h-full flex flex-col"
+                        
                     >
                         <h2 className="text-2xl font-serif font-semibold text-center mb-4">
                             {card.title}
@@ -69,7 +72,7 @@ export default function Services() {
                         {/* BUTTONS */}
                         <section
                             id="buttons"
-                            className="flex flex-col md:flex-row justify-center items-center gap-4 mt-8"
+                            className="flex flex-col justify-center items-center gap-4 mt-8"
                         >
                             {/* Therapist Button */}
                             <a
