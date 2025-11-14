@@ -1,802 +1,244 @@
-[00:00:01.797] Server  LOG      ✓ Ready in 1175ms
-[00:00:06.635] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-      <LoadingBoundary name="therapists/" loading={null}>
-        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/therapists" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
-                <SegmentViewNode type="page" pagePath="therapists...">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Therapists} serverProvidedParams={{...}}>
-                    <Therapists params={Promise} searchParams={Promise}>
-                      <main id="therapists" className="min-h-scre...">
-                        <Background>
-                        <Navbar>
-                        <section id="contact" className="relative z...">
-                          <script>
-                          <motion.h1 initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} ...>
-+                           <h1
-+                             className="font-serif text-white text-2xl font-bold mb-8 text-center mt-8"
-+                             style={{opacity:0,transform:"translateY..."}}
-+                             ref={function useMotionRef.useCallback}
-+                           >
--                           <iframe
--                             src={"https://secure.na4.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBzmqhAY..."}
--                             width="100%"
--                             height="100%"
--                             frameborder="0"
--                             style={{border-top-width:"0px",border-right-width:"0px",border-bottom-width:"0px",border-left-width:"0px", ...}}
--                           >
-                          ...
-                        ...
-                ...
-              ...
-
-[00:00:06.635] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:24.553] Server  LOG      ✓ Compiled in 38ms
-[00:03:07.181] Server  LOG      ✓ Compiled in 37ms
-[00:03:13.359] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:32.530] Server  LOG      ✓ Compiled in 32ms
-[00:08:10.463] Server  LOG      ✓ Compiled in 122ms
-[00:09:15.594] Server  LOG      ✓ Compiled in 33ms
-[00:09:32.198] Server  LOG      ✓ Compiled in 28ms
-[00:09:51.748] Browser ERROR   Error submitting form: {}
-[00:09:52.146] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:17.250] Server  LOG      ✓ Compiled in 37ms
-[00:11:35.402] Server  LOG      ✓ Compiled in 30ms
-[01:04:45.327] Server  LOG      ✓ Compiled in 101ms
-[01:04:46.300] Browser ERROR   ./src/app/therapists/page.js:179:20
-Parsing ecmascript source code failed
-  177 |                 {apply &&
-  178 |                 <p>Fill out{" "}</p>
-> 179 |                 <a href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-      |                    ^^^^
-  180 |                     Application Forms
-  181 |                 </a>
-  182 | }
-
-Expected '</', got 'href'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:04:51.437] Server  LOG      ✓ Compiled in 49ms
-[01:04:53.307] Browser ERROR   ./src/app/therapists/page.js:179:20
-Parsing ecmascript source code failed
-  177 |                 {apply &&
-  178 |                 <p>Fill out{" "}</p>
-> 179 |                 <a href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-      |                    ^^^^
-  180 |                     Application Forms
-  181 |                 </a>
-  182 | }
-
-Expected '</', got 'href'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:05:21.584] Server  LOG      ✓ Compiled in 30ms
-[01:05:32.331] Server  LOG      ✓ Compiled in 27ms
-[01:05:44.753] Server  LOG      ✓ Compiled in 30ms
-[01:06:10.324] Server  LOG      ✓ Compiled in 41ms
-[01:06:10.481] Browser ERROR   ./src/app/therapists/page.js:181:17
-Parsing ecmascript source code failed
-  179 |                 <a className="hover:green-300 href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-  180 |                     Application Forms
-> 181 |                 </a>
-      |                 ^
-  182 |                 </p>
-  183 | }
-  184 |                 
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:06:10.481] Browser ERROR   ./src/app/therapists/page.js:181:18
-Parsing ecmascript source code failed
-  179 |                 <a className="hover:green-300 href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-  180 |                     Application Forms
-> 181 |                 </a>
-      |                  ^^^
-  182 |                 </p>
-  183 | }
-  184 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:06:11.303] Browser ERROR   ./src/app/therapists/page.js:181:17
-Parsing ecmascript source code failed
-  179 |                 <a className="hover:green-300 href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-  180 |                     Application Forms
-> 181 |                 </a>
-      |                 ^
-  182 |                 </p>
-  183 | }
-  184 |                 
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:06:11.303] Browser ERROR   ./src/app/therapists/page.js:181:18
-Parsing ecmascript source code failed
-  179 |                 <a className="hover:green-300 href="https://na4.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCJ-0mgF5HtWEvwlyTIDS2P_B1jP48dJBHNO6dF__usaxGBd2pg6MOo6mAEx3W0H9E*">
-  180 |                     Application Forms
-> 181 |                 </a>
-      |                  ^^^
-  182 |                 </p>
-  183 | }
-  184 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:06:20.301] Server  LOG      ✓ Compiled in 56ms
-[01:07:10.779] Server  LOG      ✓ Compiled in 63ms
-[01:07:29.690] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:08:31.403] Server  LOG      ✓ Compiled in 47ms
-[01:08:31.547] Browser ERROR   ./src/app/therapists/page.js:189:1
-Parsing ecmascript source code failed
-  187 |                 </motion.div>
-  188 |                 
-> 189 | }
-      | ^
-  190 |                 
-  191 |             </section>
-  192 |             
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:32.301] Browser ERROR   ./src/app/therapists/page.js:189:1
-Parsing ecmascript source code failed
-  187 |                 </motion.div>
-  188 |                 
-> 189 | }
-      | ^
-  190 |                 
-  191 |             </section>
-  192 |             
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:37.785] Server  LOG      ✓ Compiled in 25ms
-[01:08:37.890] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 | }
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:38.300] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 | }
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:39.270] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 |
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:39.300] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 |
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:47.066] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 |
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:08:47.301] Browser ERROR   ./src/app/therapists/page.js:192:18
-Parsing ecmascript source code failed
-  190 |                 </a>
-  191 |                 </p>
-> 192 |                 </motion.div>
-      |                  ^^^^^^^^^^^^
-  193 |                 
-  194 |
-  195 |                 
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:34.000] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:10:48.727] Server  LOG      ✓ Compiled in 45ms
-[01:10:48.830] Browser ERROR   ./src/app/therapists/page.js:177:26
-Parsing ecmascript source code failed
-  175 |
-  176 |                 </motion.div>
-> 177 |                 {apply &&}
-      |                          ^
-  178 |                 <motion.div
-  179 |                     key="contact-success"
-  180 |                     initial={{ opacity: 0, y: 10 }}
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:49.309] Browser ERROR   ./src/app/therapists/page.js:177:26
-Parsing ecmascript source code failed
-  175 |
-  176 |                 </motion.div>
-> 177 |                 {apply &&}
-      |                          ^
-  178 |                 <motion.div
-  179 |                     key="contact-success"
-  180 |                     initial={{ opacity: 0, y: 10 }}
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:52.325] Browser ERROR   ./src/app/therapists/page.js:193:1
-Parsing ecmascript source code failed
-  191 |                             </a>
-  192 |                         </p>
-> 193 | }
-      | ^
-  194 |                 </motion.div>
-  195 |
-  196 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:52.325] Browser ERROR   ./src/app/therapists/page.js:198:14
-Parsing ecmascript source code failed
-  196 |
-  197 |
-> 198 |             </section>
-      |              ^^^^^^^^^
-  199 |
-  200 |
-  201 |
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:53.300] Browser ERROR   ./src/app/therapists/page.js:193:1
-Parsing ecmascript source code failed
-  191 |                             </a>
-  192 |                         </p>
-> 193 | }
-      | ^
-  194 |                 </motion.div>
-  195 |
-  196 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:53.300] Browser ERROR   ./src/app/therapists/page.js:198:14
-Parsing ecmascript source code failed
-  196 |
-  197 |
-> 198 |             </section>
-      |              ^^^^^^^^^
-  199 |
-  200 |
-  201 |
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:56.310] Browser ERROR   ./src/app/therapists/page.js:193:1
-Parsing ecmascript source code failed
-  191 |                             </a>
-  192 |                         </p>
-> 193 | }
-      | ^
-  194 |                 </motion.div>
-  195 |
-  196 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:56.311] Browser ERROR   ./src/app/therapists/page.js:198:14
-Parsing ecmascript source code failed
-  196 |
-  197 |
-> 198 |             </section>
-      |              ^^^^^^^^^
-  199 |
-  200 |
-  201 |
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:56.312] Browser ERROR   ./src/app/therapists/page.js:193:1
-Parsing ecmascript source code failed
-  191 |                             </a>
-  192 |                         </p>
-> 193 | }
-      | ^
-  194 |                 </motion.div>
-  195 |
-  196 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:10:56.312] Browser ERROR   ./src/app/therapists/page.js:198:14
-Parsing ecmascript source code failed
-  196 |
-  197 |
-> 198 |             </section>
-      |              ^^^^^^^^^
-  199 |
-  200 |
-  201 |
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:11:18.330] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:11:49.471] Server  LOG      ✓ Compiled in 86ms
-[01:12:18.575] Server  LOG      ✓ Compiled in 30ms
-[01:12:29.537] Server  LOG      ✓ Compiled in 22ms
-[01:12:56.145] Server  LOG      ✓ Compiled in 47ms
-[01:12:56.303] Browser ERROR   ./src/app/therapists/page.js:179:21
-Parsing ecmascript source code failed
-  177 |                 </motion.div>
-  178 |                 <motion.div
-> 179 |                     initial={{ opacity: 0, y: 50 }}
-      |                     ^^^^^^^
-  180 |                     whileInView={{ opacity: 1, y: 0 }}
-  181 |                     transition={{ duration: 1, delay: 0.4 }}
-  182 |                     className="font-serif text-white text-center mb-10 mx-10 mt-10"
-
-Expected '</', got 'initial'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:12:56.306] Browser ERROR   ./src/app/therapists/page.js:179:21
-Parsing ecmascript source code failed
-  177 |                 </motion.div>
-  178 |                 <motion.div
-> 179 |                     initial={{ opacity: 0, y: 50 }}
-      |                     ^^^^^^^
-  180 |                     whileInView={{ opacity: 1, y: 0 }}
-  181 |                     transition={{ duration: 1, delay: 0.4 }}
-  182 |                     className="font-serif text-white text-center mb-10 mx-10 mt-10"
-
-Expected '</', got 'initial'
-
-Import traces:
-  Client Component Browser:
-    ./src/app/therapists/page.js [Client Component Browser]
-    ./src/app/therapists/page.js [Server Component]
-
-  Client Component SSR:
-    ./src/app/therapists/page.js [Client Component SSR]
-    ./src/app/therapists/page.js [Server Component]
-[01:24:13.871] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:25:26.443] Server  LOG      ✓ Compiled in 81ms
-[01:25:48.939] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:25:48.939] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:25:55.902] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:27:55.743] Server  LOG      ✓ Compiled in 27ms
-[01:28:01.227] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:28:15.578] Server  LOG      ✓ Compiled in 59ms
-[01:28:20.623] Server  LOG      ✓ Compiled in 48ms
-[01:28:29.015] Server  LOG      ✓ Compiled in 30ms
-[01:29:02.876] Server  LOG      ✓ Compiled in 36ms
-[01:29:09.688] Server  LOG      ✓ Compiled in 40ms
-[01:29:30.794] Server  LOG      ✓ Compiled in 25ms
-[01:30:10.026] Server  LOG      ✓ Compiled in 44ms
-[01:30:25.088] Server  LOG      ✓ Compiled in 37ms
-[01:31:45.517] Server  LOG      ✓ Compiled in 33ms
-[01:31:51.004] Server  LOG      ✓ Compiled in 26ms
-[01:33:51.613] Server  LOG      ✓ Compiled in 237ms
-[01:33:51.723] Server  LOG      ✓ Compiled in 0ms
-[01:36:23.087] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:36:24.121] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:36:32.871] Server  LOG      ✓ Compiled in 41ms
-[01:37:01.815] Server  LOG      ✓ Compiled in 30ms
-[01:37:26.254] Server  LOG      ✓ Compiled in 90ms
-[01:37:28.490] Server  LOG      ✓ Compiled in 31ms
-[01:37:53.169] Server  LOG      ✓ Compiled in 29ms
-[01:39:06.766] Server  LOG      ✓ Compiled in 33ms
-[01:39:11.480] Server  LOG      ✓ Compiled in 27ms
-[01:40:40.837] Server  LOG      ✓ Compiled in 38ms
-[01:40:50.785] Server  LOG      ✓ Compiled in 31ms
-[01:40:50.936] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: options
-[01:42:05.715] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:42:05.726] Server  LOG      ✓ Compiled in 79ms
-[01:42:06.559] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:42:36.598] Server  LOG      ✓ Compiled in 35ms
-[01:42:50.922] Server  LOG      ✓ Compiled in 24ms
-[01:43:02.949] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:43:02.949] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:43:04.956] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:44:21.061] Server  LOG      ✓ Compiled in 33ms
-[01:44:28.113] Server  LOG      ✓ Compiled in 26ms
-[01:46:01.886] Server  LOG      ✓ Compiled in 27ms
-[01:46:30.181] Server  LOG      ✓ Compiled in 24ms
-[01:46:36.226] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:47:51.361] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:47:51.361] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:48:01.236] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:48:15.372] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:48:20.647] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:48:43.437] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:48:43.437] Browser WARN    Image with src "/assets/logo.PNG" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:49:41.800] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:50:28.340] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:50:59.238] Server  LOG      ✓ Compiled in 33ms
-[01:51:13.274] Server  LOG      ✓ Compiled in 24ms
-[01:51:52.585] Server  LOG      ✓ Compiled in 66ms
-[01:52:01.030] Server  LOG      ✓ Compiled in 34ms
-[02:05:46.957] Server  LOG      ✓ Compiled in 37ms
-[02:20:27.840] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[02:20:27.994] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[02:20:47.688] Browser ERROR   ./src/app/therapists/page.js:12:1
+[00:00:02.165] Server  LOG      ✓ Ready in 1328ms
+[00:00:18.817] Server  LOG      ○ Compiling /patients ...
+[00:00:18.903] Server  ERROR    ⨯ ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client"
-     | ^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:20:47.688] Browser ERROR   ./src/app/therapists/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+
+
+[00:00:20.286] Browser ERROR   uncaughtError: Error: ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Therapists() {
-  21 |     const [type] = useState("Therapist Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:20:47.791] Browser ERROR   ./src/app/therapists/page.js:12:1
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+
+
+[00:00:20.526] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client"
-     | ^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:20:47.791] Browser ERROR   ./src/app/therapists/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:20.526] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Therapists() {
-  21 |     const [type] = useState("Therapist Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:21:08.828] Server  LOG      ✓ Compiled in 186ms
-[02:21:09.792] Browser ERROR   ./src/app/therapists/page.js:12:1
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:20.722] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client"
-     | ^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:21:09.792] Browser ERROR   ./src/app/therapists/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:32.306] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:32.455] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Therapists() {
-  21 |     const [type] = useState("Therapist Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:21:09.792] Browser ERROR   ./src/app/patients/page.js:12:1
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:32.455] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client";
-     | ^^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:21:09.792] Browser ERROR   ./src/app/patients/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:33.326] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Patients() {
-  21 |     const [type] = useState("Patient Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:21:09.793] Browser ERROR   ./src/app/therapists/page.js:12:1
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:33.904] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client"
-     | ^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:21:09.793] Browser ERROR   ./src/app/therapists/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:33.904] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Therapists() {
-  21 |     const [type] = useState("Therapist Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:21:09.793] Browser ERROR   ./src/app/patients/page.js:12:1
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:58.901] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  10 |   },
-  11 | };
-> 12 | "use client";
-     | ^^^^^^^^^^^^^
-  13 |
-  14 | import Background from "../components/background";
-  15 | import Footer from "../components/footer";
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
-[02:21:09.793] Browser ERROR   ./src/app/patients/page.js:18:10
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:00:58.902] Browser ERROR   ./src/app/patients/page.js:2:14
 Ecmascript file had an error
-  16 | import Navbar from "../components/navbar";
-  17 | import { motion, AnimatePresence } from "framer-motion";
-> 18 | import { useState } from "react";
-     |          ^^^^^^^^
-  19 |
-  20 | export default function Patients() {
-  21 |     const [type] = useState("Patient Application Started");
+  1 | "use client";
+> 2 | export const metadata = {
+    |              ^^^^^^^^
+  3 |   title: "Patient Application",
+  4 |   description:
+  5 |     "Submit your child’s patient application to begin pediatric Physical Therapy, Occupational Therapy, or Speech Therapy with Mariposas Therapy Services.",
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./src/app/patients/page.js [Client Component Browser]
+    ./src/app/patients/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/patients/page.js [Client Component SSR]
+    ./src/app/patients/page.js [Server Component]
+[00:01:06.044] Server  LOG      ✓ Compiled in 52ms
+[00:01:06.174] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:07.598] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:29.083] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:30.764] Browser WARN    Image with src "/assets/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

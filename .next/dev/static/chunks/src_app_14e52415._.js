@@ -7,6 +7,7 @@ __turbopack_context__.s([
     ()=>Background
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+"use client";
 ;
 function Background() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -22,20 +23,20 @@ function Background() {
                 type: "video/mp4"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/background.js",
-                lineNumber: 4,
+                lineNumber: 5,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0  backdrop-blur-sm z-0"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/background.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/background.js",
-        lineNumber: 3,
+        lineNumber: 4,
         columnNumber: 9
     }, this);
 }
@@ -363,12 +364,12 @@ function Patients() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$background$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/patients/page.js",
-                lineNumber: 56,
+                lineNumber: 57,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$navbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/patients/page.js",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -391,7 +392,7 @@ function Patients() {
                         children: "Welcome to Mariposas Therapy Services 🦋"
                     }, void 0, false, {
                         fileName: "[project]/src/app/patients/page.js",
-                        lineNumber: 63,
+                        lineNumber: 64,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -412,12 +413,12 @@ function Patients() {
                             children: "We are honored to support your child's growth and development. Begin your journey by completing the quick form below."
                         }, void 0, false, {
                             fileName: "[project]/src/app/patients/page.js",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/patients/page.js",
-                        lineNumber: 72,
+                        lineNumber: 73,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].form, {
@@ -444,7 +445,7 @@ function Patients() {
                                         value: type
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 90,
+                                        lineNumber: 91,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -455,7 +456,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 92,
+                                        lineNumber: 93,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -466,7 +467,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 101,
+                                        lineNumber: 102,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -477,7 +478,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 110,
+                                        lineNumber: 111,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -490,7 +491,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 119,
+                                        lineNumber: 120,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -501,7 +502,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 130,
+                                        lineNumber: 131,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -514,7 +515,7 @@ function Patients() {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 139,
+                                        lineNumber: 140,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -531,36 +532,36 @@ function Patients() {
                                                             onChange: ()=>handleChange(option)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/patients/page.js",
-                                                            lineNumber: 156,
+                                                            lineNumber: 157,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: option
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/patients/page.js",
-                                                            lineNumber: 162,
+                                                            lineNumber: 163,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, option, true, {
                                                     fileName: "[project]/src/app/patients/page.js",
-                                                    lineNumber: 155,
+                                                    lineNumber: 156,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/patients/page.js",
-                                            lineNumber: 153,
+                                            lineNumber: 154,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/patients/page.js",
-                                        lineNumber: 151,
+                                        lineNumber: 152,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/patients/page.js",
-                                lineNumber: 89,
+                                lineNumber: 90,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -569,13 +570,13 @@ function Patients() {
                                 children: "Apply"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/patients/page.js",
-                                lineNumber: 169,
+                                lineNumber: 170,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/patients/page.js",
-                        lineNumber: 82,
+                        lineNumber: 83,
                         columnNumber: 17
                     }, this),
                     apply && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -600,18 +601,18 @@ function Patients() {
                                     children: "Application Forms"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/patients/page.js",
-                                    lineNumber: 188,
+                                    lineNumber: 189,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/patients/page.js",
-                            lineNumber: 187,
+                            lineNumber: 188,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/patients/page.js",
-                        lineNumber: 181,
+                        lineNumber: 182,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -635,29 +636,29 @@ function Patients() {
                             children: "Your application request has been sent. You will be hearing from us in 1–3 business days!"
                         }, void 0, false, {
                             fileName: "[project]/src/app/patients/page.js",
-                            lineNumber: 197,
+                            lineNumber: 198,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/patients/page.js",
-                        lineNumber: 195,
+                        lineNumber: 196,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/patients/page.js",
-                lineNumber: 59,
+                lineNumber: 60,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$footer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/patients/page.js",
-                lineNumber: 211,
+                lineNumber: 212,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/patients/page.js",
-        lineNumber: 55,
+        lineNumber: 56,
         columnNumber: 9
     }, this);
 }

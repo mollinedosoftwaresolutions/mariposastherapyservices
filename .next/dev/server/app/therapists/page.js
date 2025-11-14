@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/therapists/page.js")
-R.c("server/chunks/ssr/node_modules_8500f3e4._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__582c6821._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_ece390e0._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a1f8b4c0._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_b704424f._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")
