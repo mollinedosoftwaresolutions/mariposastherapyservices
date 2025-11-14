@@ -36,8 +36,8 @@ export const metadata = {
     images: [
       {
         url: "https://mariposastherapyservices-2stt.vercel.app/logo.jpg",
-        width: 1200,
-        height: 630,
+        width: 800,
+        height: 800,
         alt: "Mariposas Therapy Services",
       },
     ],
