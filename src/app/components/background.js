@@ -1,4 +1,4 @@
-"use client"
+"use c"
 export default function Background() {
     return (
         <section>

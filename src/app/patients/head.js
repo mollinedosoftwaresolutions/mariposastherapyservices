@@ -6,6 +6,6 @@ export const metadata = {
     title: "Patient Intake Form | Mariposas Therapy Services",
     description:
       "Start your child's therapy journey by completing our patient application. PT, OT, and Speech Therapy available.",
-    url: "https://yourdomain.com/patients",
+    url: "https://https://mariposastherapyservices-2stt.vercel.app/patients",
   },
 };

@@ -88,7 +88,7 @@ const metadata = {
     openGraph: {
         title: "Mariposas Therapy Services",
         description: "Pediatric Physical, Occupational, and Speech Therapy helping children grow with care and compassion.",
-        url: "https://yourdomain.com",
+        url: "https://mariposastherapyservices-2stt.vercel.app",
         siteName: "Mariposas Therapy Services",
         images: [
             {

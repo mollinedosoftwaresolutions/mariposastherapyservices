@@ -6,6 +6,6 @@ export const metadata = {
     title: "Therapist Application | Mariposas Therapy Services",
     description:
       "Join our team of compassionate pediatric therapists. Now hiring for PT, OT, and Speech Therapy positions.",
-    url: "https://yourdomain.com/therapists",
+    url: "https://mariposastherapyservices-2stt.vercel.app/therapists",
   },
 };
