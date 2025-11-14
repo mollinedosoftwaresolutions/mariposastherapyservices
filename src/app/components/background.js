@@ -1,4 +1,6 @@
-"use c"
+"use client"
+import Image from "next/image";
+
 export default function Background() {
     return (
         <section>
@@ -16,3 +18,17 @@ export default function Background() {
     );
 
 }
+{/*}
+export default function Background() {
+  return (
+    <section className="absolute inset-0 -z-10 w-full h-full">
+      <img
+        src="/assets/pic-background.jpg"
+        alt="Background"
+        className="w-full h-full object-cover"
+        fill
+      />
+      <div className="absolute inset-0 backdrop-blur-sm"></div>
+    </section>
+  );
+}*/}
