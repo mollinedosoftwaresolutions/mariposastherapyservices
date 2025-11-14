@@ -12,10 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  icons:{
-    icon: "/favicon.ico"
-
-  },
+ 
   title: {
     default: "Mariposas Therapy Services | Pediatric Therapy in South Florida",
     template: "%s | Mariposas Therapy Services",
@@ -38,7 +35,7 @@ export const metadata = {
     siteName: "Mariposas Therapy Services",
     images: [
       {
-        url: "/logo.jpg",
+        url: "https://mariposastherapyservices-2stt.vercel.app/logo.jpg",
         width: 1200,
         height: 630,
         alt: "Mariposas Therapy Services",
