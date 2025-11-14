@@ -72,6 +72,9 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
+    icons: {
+        icon: "/favicon.ico"
+    },
     title: {
         default: "Mariposas Therapy Services | Pediatric Therapy in South Florida",
         template: "%s | Mariposas Therapy Services"
@@ -92,7 +95,7 @@ const metadata = {
         siteName: "Mariposas Therapy Services",
         images: [
             {
-                url: "/favicon.ico",
+                url: "/logo.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Mariposas Therapy Services"
@@ -113,12 +116,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.js",
-            lineNumber: 54,
+            lineNumber: 58,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.js",
-        lineNumber: 53,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }
