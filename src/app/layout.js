@@ -34,7 +34,7 @@ export const metadata = {
     siteName: "Mariposas Therapy Services",
     images: [
       {
-        url: "/assets/logo.png",   // only for OG (social media), NOT favicon
+        url: "/assets/logo.PNG", // IMPORTANT: match exact file
         width: 800,
         height: 800,
         alt: "Mariposas Therapy Services",
@@ -47,7 +47,7 @@ export const metadata = {
     follow: true,
   },
   icons: {
-    icon: "/favicon.ico", // THE ONLY FAVICON
+    icon: "/favicon.ico",
   },
 };
 
@@ -55,7 +55,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Ensure favicon is used everywhere */}
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
