@@ -72,37 +72,58 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: {
-        default: "Mariposas Therapy Services | Pediatric Therapy in South Florida",
-        template: "%s | Mariposas Therapy Services"
-    },
-    description: "Mariposas Therapy Services provides compassionate pediatric therapy including Physical Therapy, Occupational Therapy, and Speech Therapy for children in South Florida.",
+    title: "Mollinedo Software Solutions | Web Design, Chatbots & SEO",
+    description: "Custom websites, intelligent chatbots, and SEO optimization for businesses in Miami, Charlotte, and beyond. Mollinedo Software Solutions helps your brand grow with modern, high-performance digital solutions. | Diseño web, chatbots inteligentes y optimización SEO para empresas en Miami, Charlotte y todo el mundo.",
     keywords: [
-        "pediatric therapy",
-        "pediatric physical therapy",
-        "pediatric occupational therapy",
-        "pediatric speech therapy",
-        "therapy services Miami",
-        "child developmental therapy"
+        // English keywords
+        "web design",
+        "web development",
+        "SEO optimization",
+        "chatbots",
+        "custom websites",
+        "responsive design",
+        "Google indexing",
+        "business website design",
+        "website optimization",
+        "Mollinedo Software Solutions",
+        "Miami web design",
+        "Charlotte web development",
+        "website builder",
+        "freelance web developer",
+        "digital marketing",
+        "online visibility",
+        // Spanish keywords
+        "diseño web",
+        "desarrollo web",
+        "chatbot inteligente",
+        "optimización SEO",
+        "posicionamiento web",
+        "diseñador web en Miami",
+        "desarrollador web en Charlotte",
+        "sitios web personalizados",
+        "marketing digital",
+        "Mollinedo Software Solutions"
     ],
+    authors: [
+        {
+            name: "Alejandro Morales Mollinedo"
+        }
+    ],
+    creator: "Alejandro Morales Mollinedo",
+    publisher: "Mollinedo Software Solutions",
+    metadataBase: new URL("https://mollinedosoftwaresolutions.vercel.app"),
     openGraph: {
-        title: "Mariposas Therapy Services",
-        description: "Pediatric Physical, Occupational, and Speech Therapy helping children grow with care and compassion.",
-        url: "https://mariposastherapyservices-2stt.vercel.app",
-        siteName: "Mariposas Therapy Services",
+        url: "https://mollinedosoftwaresolutions.vercel.app",
         images: [
             {
-                url: "https://mariposastherapyservices-2stt.vercel.app/logo.jpg",
+                url: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
                 width: 800,
                 height: 800,
-                alt: "Mariposas Therapy Services"
+                alt: "Mollinedo Software Solutions Logo"
             }
         ],
+        locale: "en_US",
         type: "website"
-    },
-    robots: {
-        index: true,
-        follow: true
     }
 };
 function RootLayout({ children }) {
@@ -110,51 +131,60 @@ function RootLayout({ children }) {
         lang: "en",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "icon",
-                        href: "/favicon.ico",
-                        sizes: "any"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.js",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "apple-touch-icon",
-                        href: "/logo.png"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.js",
-                        lineNumber: 57,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "mask-icon",
-                        href: "/logo.jpg",
-                        color: "#5bbad5"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/layout.js",
-                        lineNumber: 58,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                    type: "application/ld+json",
+                    dangerouslySetInnerHTML: {
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "LocalBusiness",
+                            "@id": "https://mollinedosoftwaresolutions.vercel.app/#localbusiness",
+                            name: "Mollinedo Software Solutions",
+                            url: "https://mollinedosoftwaresolutions.vercel.app",
+                            logo: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
+                            image: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
+                            description: "Professional web design, chatbot integration, and SEO optimization for businesses in Miami, Charlotte, and worldwide. | Diseño web, chatbots y SEO para empresas en Miami, Charlotte y todo el mundo.",
+                            telephone: "+1-786-576-8083",
+                            email: "mollinedosoftwaresolutions@gmail.com",
+                            priceRange: "$$",
+                            address: {
+                                "@type": "PostalAddress",
+                                addressLocality: "Miami",
+                                addressRegion: "FL",
+                                addressCountry: "US"
+                            },
+                            areaServed: [
+                                "Miami, FL",
+                                "Charlotte, NC",
+                                "United States",
+                                "Worldwide"
+                            ],
+                            sameAs: [
+                                "https://linkedin.com",
+                                "https://github.com/mollinedosoftwaresolutions"
+                            ]
+                        })
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/src/app/layout.js",
+                    lineNumber: 71,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 55,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-                className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_2ae47f08$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_eb58308d$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} antialiased`,
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 60,
+                lineNumber: 108,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/layout.js",
-        lineNumber: 54,
+        lineNumber: 68,
         columnNumber: 5
     }, this);
 }

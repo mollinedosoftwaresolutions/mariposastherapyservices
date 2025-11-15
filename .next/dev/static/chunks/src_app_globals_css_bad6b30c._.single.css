@@ -809,11 +809,6 @@
     text-decoration-line: underline;
   }
 
-  .antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
   .accent-green-400 {
     accent-color: var(--color-green-400);
   }
