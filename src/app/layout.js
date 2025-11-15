@@ -12,54 +12,103 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: {
-    default: "Mariposas Therapy Services | Pediatric Therapy in South Florida",
-    template: "%s | Mariposas Therapy Services",
-  },
+  title: "Mollinedo Software Solutions | Web Design, Chatbots & SEO",
   description:
-    "Mariposas Therapy Services provides compassionate pediatric therapy including Physical Therapy, Occupational Therapy, and Speech Therapy for children in South Florida.",
+    "Custom websites, intelligent chatbots, and SEO optimization for businesses in Miami, Charlotte, and beyond. Mollinedo Software Solutions helps your brand grow with modern, high-performance digital solutions. | Diseño web, chatbots inteligentes y optimización SEO para empresas en Miami, Charlotte y todo el mundo.",
   keywords: [
-    "pediatric therapy",
-    "pediatric physical therapy",
-    "pediatric occupational therapy",
-    "pediatric speech therapy",
-    "therapy services Miami",
-    "child developmental therapy",
+    // English keywords
+    "web design",
+    "web development",
+    "SEO optimization",
+    "chatbots",
+    "custom websites",
+    "responsive design",
+    "Google indexing",
+    "business website design",
+    "website optimization",
+    "Mollinedo Software Solutions",
+    "Miami web design",
+    "Charlotte web development",
+    "website builder",
+    "freelance web developer",
+    "digital marketing",
+    "online visibility",
+    // Spanish keywords
+    "diseño web",
+    "desarrollo web",
+    "chatbot inteligente",
+    "optimización SEO",
+    "posicionamiento web",
+    "diseñador web en Miami",
+    "desarrollador web en Charlotte",
+    "sitios web personalizados",
+    "marketing digital",
+    "Mollinedo Software Solutions"
   ],
+  authors: [{ name: "Alejandro Morales Mollinedo" }],
+  creator: "Alejandro Morales Mollinedo",
+  publisher: "Mollinedo Software Solutions",
+  metadataBase: new URL("https://mollinedosoftwaresolutions.vercel.app"),
   openGraph: {
-    title: "Mariposas Therapy Services",
-    description:
-      "Pediatric Physical, Occupational, and Speech Therapy helping children grow with care and compassion.",
-    url: "https://mariposastherapyservices-2stt.vercel.app",
-    siteName: "Mariposas Therapy Services",
+    url: "https://mollinedosoftwaresolutions.vercel.app",
     images: [
       {
-        url: "/assets/logo.PNG", // IMPORTANT: match exact file
+        url: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
         width: 800,
         height: 800,
-        alt: "Mariposas Therapy Services",
+        alt: "Mollinedo Software Solutions Logo",
       },
     ],
+    locale: "en_US",
     type: "website",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        {/* LocalBusiness structured data for Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "@id": "https://mollinedosoftwaresolutions.vercel.app/#localbusiness",
+              name: "Mollinedo Software Solutions",
+              url: "https://mollinedosoftwaresolutions.vercel.app",
+              logo: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
+              image: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
+              description:
+                "Professional web design, chatbot integration, and SEO optimization for businesses in Miami, Charlotte, and worldwide. | Diseño web, chatbots y SEO para empresas en Miami, Charlotte y todo el mundo.",
+              telephone: "+1-786-576-8083",
+              email: "mollinedosoftwaresolutions@gmail.com",
+              priceRange: "$$",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Miami",
+                addressRegion: "FL",
+                addressCountry: "US",
+              },
+              areaServed: [
+                "Miami, FL",
+                "Charlotte, NC",
+                "United States",
+                "Worldwide",
+              ],
+              sameAs: [
+                "https://linkedin.com",
+                "https://github.com/mollinedosoftwaresolutions",
+              ],
+            }),
+          }}
+        />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
-      </body>
+
+      <body>{children}</body>
     </html>
   );
 }
+
+
+
