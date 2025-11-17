@@ -12,13 +12,13 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             >
                 <Image
-  src="/assets/logo.png"
-  alt="Mariposas Therapy Services Logo"
-  width={128}
-  height={128}
-  loading="eager"
-  priority
-/>
+                    src="/assets/logo.png"
+                    alt="Mariposas Therapy Services Logo"
+                    width={128}
+                    height={128}
+                    loading="eager"
+                    priority
+                />
             </motion.div>
             <section className="relative flex flex-col items-center justify-center">
                 <motion.div
