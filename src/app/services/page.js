@@ -56,7 +56,7 @@ export default function ServicesPage() {
                     Our Services
                 </motion.h1>
 
-                <section className="relative grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+                <section className="relative grid grid-cols-1 md:grid-cols-3 gap-8 ">
                     {cards.map((card, i) => (
                         <motion.div
                             key={i}

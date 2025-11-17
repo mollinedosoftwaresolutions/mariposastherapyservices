@@ -3,13 +3,21 @@
   <url>
     <loc>https://mariposatherapyservices-2stt.vercel.app/</loc>
     <priority>1.0</priority>
+    <lastmod>2025-11-17</lastmod>
   </url>
   <url>
     <loc>https://mariposatherapyservices-2stt.vercel.app/therapists</loc>
     <priority>0.8</priority>
+    <lastmod>2025-11-17</lastmod>
   </url>
   <url>
     <loc>https://mariposatherapyservices-2stt.vercel.app/patients</loc>
     <priority>0.8</priority>
+    <lastmod>2025-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mariposatherapyservices-2stt.vercel.app/services</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-11-17</lastmod>
   </url>
 </urlset>
