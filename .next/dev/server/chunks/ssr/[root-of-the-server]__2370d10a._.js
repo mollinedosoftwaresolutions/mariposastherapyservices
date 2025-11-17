@@ -72,54 +72,52 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Mollinedo Software Solutions | Web Design, Chatbots & SEO",
-    description: "Custom websites, intelligent chatbots, and SEO optimization for businesses in Miami, Charlotte, and beyond. Mollinedo Software Solutions helps your brand grow with modern, high-performance digital solutions. | Diseño web, chatbots inteligentes y optimización SEO para empresas en Miami, Charlotte y todo el mundo.",
+    title: "Mariposas Therapy Services | Pediatric Physical, Occupational & Speech Therapy",
+    description: "Compassionate pediatric therapy services including Physical Therapy, Occupational Therapy, and Speech Therapy in South Florida. Mariposas Therapy Services helps children grow, develop, and thrive with personalized care. | Terapias pediátricas en Miami: terapia física, ocupacional y del habla con atención cálida y profesional.",
     keywords: [
-        // English keywords
-        "web design",
-        "web development",
-        "SEO optimization",
-        "chatbots",
-        "custom websites",
-        "responsive design",
-        "Google indexing",
-        "business website design",
-        "website optimization",
-        "Mollinedo Software Solutions",
-        "Miami web design",
-        "Charlotte web development",
-        "website builder",
-        "freelance web developer",
-        "digital marketing",
-        "online visibility",
+        // English SEO keywords
+        "pediatric therapy",
+        "pediatric physical therapy",
+        "pediatric occupational therapy",
+        "pediatric speech therapy",
+        "child therapy Miami",
+        "therapy services Miami",
+        "South Florida pediatric therapy",
+        "developmental therapy",
+        "child development specialist",
+        "PT for kids",
+        "OT for kids",
+        "SLP for kids",
+        "Mariposas Therapy Services",
         // Spanish keywords
-        "diseño web",
-        "desarrollo web",
-        "chatbot inteligente",
-        "optimización SEO",
-        "posicionamiento web",
-        "diseñador web en Miami",
-        "desarrollador web en Charlotte",
-        "sitios web personalizados",
-        "marketing digital",
-        "Mollinedo Software Solutions"
+        "terapia pediátrica",
+        "terapia física pediátrica",
+        "terapia ocupacional pediátrica",
+        "terapia del habla para niños",
+        "servicios de terapia Miami",
+        "terapia infantil Miami",
+        "terapeutas pediátricos",
+        "desarrollo infantil",
+        "Mariposas Therapy Services"
     ],
     authors: [
         {
             name: "Alejandro Morales Mollinedo"
         }
     ],
-    creator: "Alejandro Morales Mollinedo",
-    publisher: "Mollinedo Software Solutions",
-    metadataBase: new URL("https://mollinedosoftwaresolutions.vercel.app"),
+    creator: "Mariposas Therapy Services",
+    publisher: "Mariposas Therapy Services",
+    metadataBase: new URL("https://mariposatherapyservices.com"),
     openGraph: {
-        url: "https://mollinedosoftwaresolutions.vercel.app",
+        title: "Mariposas Therapy Services",
+        description: "Pediatric Physical, Occupational & Speech Therapy helping children grow with care and compassion.",
+        url: "https://mariposatherapyservices.com",
         images: [
             {
-                url: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
+                url: "https://mariposatherapyservices.com/assets/logo.png",
                 width: 800,
                 height: 800,
-                alt: "Mollinedo Software Solutions Logo"
+                alt: "Mariposas Therapy Services Logo"
             }
         ],
         locale: "en_US",
@@ -136,31 +134,36 @@ function RootLayout({ children }) {
                     dangerouslySetInnerHTML: {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
-                            "@id": "https://mollinedosoftwaresolutions.vercel.app/#localbusiness",
-                            name: "Mollinedo Software Solutions",
-                            url: "https://mollinedosoftwaresolutions.vercel.app",
-                            logo: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
-                            image: "https://mollinedosoftwaresolutions.vercel.app/assets/logo.png",
-                            description: "Professional web design, chatbot integration, and SEO optimization for businesses in Miami, Charlotte, and worldwide. | Diseño web, chatbots y SEO para empresas en Miami, Charlotte y todo el mundo.",
+                            "@type": "MedicalClinic",
+                            "@id": "https://mariposatherapyservices.com/#clinic",
+                            name: "Mariposas Therapy Services",
+                            url: "https://mariposatherapyservices.com",
+                            logo: "https://mariposatherapyservices.com/assets/logo.png",
+                            image: "https://mariposatherapyservices.com/assets/logo.png",
+                            description: "Pediatric Physical, Occupational & Speech Therapy providing compassionate, high-quality care for children in South Florida.",
                             telephone: "+1-786-576-8083",
-                            email: "mollinedosoftwaresolutions@gmail.com",
-                            priceRange: "$$",
+                            email: "mariposatherapyservices@gmail.com",
                             address: {
                                 "@type": "PostalAddress",
                                 addressLocality: "Miami",
                                 addressRegion: "FL",
                                 addressCountry: "US"
                             },
+                            medicalSpecialty: [
+                                "Pediatric Physical Therapy",
+                                "Pediatric Occupational Therapy",
+                                "Pediatric Speech Therapy"
+                            ],
                             areaServed: [
                                 "Miami, FL",
-                                "Charlotte, NC",
-                                "United States",
-                                "Worldwide"
+                                "South Florida",
+                                "Doral, FL",
+                                "Kendall, FL",
+                                "Hialeah, FL"
                             ],
                             sameAs: [
-                                "https://linkedin.com",
-                                "https://github.com/mollinedosoftwaresolutions"
+                                "https://facebook.com",
+                                "https://instagram.com"
                             ]
                         })
                     }
@@ -178,7 +181,7 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 108,
+                lineNumber: 113,
                 columnNumber: 7
             }, this)
         ]

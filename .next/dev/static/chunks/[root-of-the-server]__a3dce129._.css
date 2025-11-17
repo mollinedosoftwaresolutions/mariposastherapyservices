@@ -493,6 +493,10 @@
     margin-inline: calc(var(--spacing) * 4);
   }
 
+  .mx-6 {
+    margin-inline: calc(var(--spacing) * 6);
+  }
+
   .mx-10 {
     margin-inline: calc(var(--spacing) * 10);
   }
@@ -561,6 +565,10 @@
     height: calc(var(--spacing) * 5);
   }
 
+  .h-auto {
+    height: auto;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -571,6 +579,10 @@
 
   .w-5 {
     width: calc(var(--spacing) * 5);
+  }
+
+  .w-auto {
+    width: auto;
   }
 
   .w-full {

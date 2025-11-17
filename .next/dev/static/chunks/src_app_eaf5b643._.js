@@ -298,7 +298,10 @@ function Hero() {
                     src: "/assets/logo.PNG",
                     alt: "Logo",
                     width: 300,
-                    height: 300
+                    height: 300,
+                    loading: "eager",
+                    priority: true,
+                    className: "h-auto w-auto"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/hero.js",
                     lineNumber: 14,
@@ -330,12 +333,12 @@ function Hero() {
                             children: "Helping Children Learn With Care and Compassion 🦋 "
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.js",
-                            lineNumber: 28,
+                            lineNumber: 31,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/hero.js",
-                        lineNumber: 22,
+                        lineNumber: 25,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -356,18 +359,18 @@ function Hero() {
                             children: "At Mariposas Therapy Services, we believe every child has the potential to soar. Our dedicated therapists provide individualized physical, occupational, and speech therapy in a nurturing environment that inspires progress, confidence, and joy in every step."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.js",
-                            lineNumber: 36,
+                            lineNumber: 39,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/hero.js",
-                        lineNumber: 30,
+                        lineNumber: 33,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/hero.js",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 13
             }, this)
         ]
@@ -656,7 +659,7 @@ function Services() {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative grid grid-cols-1 md:grid-cols-3 gap-8 px-8 mx-12",
+                className: "relative grid grid-cols-1 md:grid-cols-3 gap-8 px-8",
                 children: cards.map((card, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                         initial: {
                             opacity: 0,

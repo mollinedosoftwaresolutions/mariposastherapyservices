@@ -16,6 +16,9 @@ export default function Hero() {
                     alt="Logo"
                     width={300}
                     height={300}
+                    loading="eager"
+                    priority
+                    className="h-auto w-auto"
                 />
             </motion.div>
             <section className="relative flex flex-col items-center justify-center">
