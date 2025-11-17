@@ -11,7 +11,7 @@ export default function Navbar() {
                  shadow-lg transition-all duration-300"
         >
             <div id="brand" className="flex items-center space-x-2 mx-4">
-                <Image src="/assets/logo.jpg"  alt="Mariposas Therapy Services Logo" width={50} height={50} className="rounded-full object-cover" />
+                <Image src="/assets/logo.png"  alt="Mariposas Therapy Services Logo" width={50} height={50} className="rounded-full object-cover" />
                 <h1 className="md:text-xl font-serif font-semibold tracking-wide text-[#0F3B1F]">
                     Mariposas Therapy Services
 
