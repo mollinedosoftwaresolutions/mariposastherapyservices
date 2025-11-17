@@ -12,11 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mariposas Therapy Services | Pediatric Physical, Occupational & Speech Therapy",
+  title:
+    "Mariposas Therapy Services | Pediatric Physical, Occupational & Speech Therapy",
   description:
     "Compassionate pediatric therapy services including Physical Therapy, Occupational Therapy, and Speech Therapy in South Florida. Mariposas Therapy Services helps children grow, develop, and thrive with personalized care. | Terapias pediátricas en Miami: terapia física, ocupacional y del habla con atención cálida y profesional.",
   keywords: [
-    // English SEO keywords
     "pediatric therapy",
     "pediatric physical therapy",
     "pediatric occupational therapy",
@@ -30,7 +30,8 @@ export const metadata = {
     "OT for kids",
     "SLP for kids",
     "Mariposas Therapy Services",
-    // Spanish keywords
+
+    // Spanish
     "terapia pediátrica",
     "terapia física pediátrica",
     "terapia ocupacional pediátrica",
@@ -39,20 +40,23 @@ export const metadata = {
     "terapia infantil Miami",
     "terapeutas pediátricos",
     "desarrollo infantil",
-    "Mariposas Therapy Services"
+    "Mariposas Therapy Services",
   ],
   authors: [{ name: "Alejandro Morales Mollinedo" }],
   creator: "Mariposas Therapy Services",
   publisher: "Mariposas Therapy Services",
-  metadataBase: new URL("https://mariposatherapyservices.com"),
+
+  // Use your Vercel URL until custom domain is active
+  metadataBase: new URL("https://mariposastherapyservices-2stt.vercel.app"),
+
   openGraph: {
     title: "Mariposas Therapy Services",
     description:
       "Pediatric Physical, Occupational & Speech Therapy helping children grow with care and compassion.",
-    url: "https://mariposatherapyservices.com",
+    url: "https://mariposastherapyservices-2stt.vercel.app",
     images: [
       {
-        url: "https://mariposatherapyservices.com/assets/logo.png",
+        url: "/assets/logo.png", // Use relative path (works everywhere)
         width: 800,
         height: 800,
         alt: "Mariposas Therapy Services Logo",
@@ -74,11 +78,12 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MedicalClinic",
-              "@id": "https://mariposatherapyservices.com/#clinic",
+              "@id":
+                "https://mariposastherapyservices-2stt.vercel.app/#clinic",
               name: "Mariposas Therapy Services",
-              url: "https://mariposatherapyservices.com",
-              logo: "https://mariposatherapyservices.com/assets/logo.png",
-              image: "https://mariposatherapyservices.com/assets/logo.png",
+              url: "https://mariposastherapyservices-2stt.vercel.app",
+              logo: "/assets/logo.png",
+              image: "/assets/logo.png",
               description:
                 "Pediatric Physical, Occupational & Speech Therapy providing compassionate, high-quality care for children in South Florida.",
               telephone: "+1-786-576-8083",
@@ -92,19 +97,16 @@ export default function RootLayout({ children }) {
               medicalSpecialty: [
                 "Pediatric Physical Therapy",
                 "Pediatric Occupational Therapy",
-                "Pediatric Speech Therapy"
+                "Pediatric Speech Therapy",
               ],
               areaServed: [
                 "Miami, FL",
                 "South Florida",
                 "Doral, FL",
                 "Kendall, FL",
-                "Hialeah, FL"
+                "Hialeah, FL",
               ],
-              sameAs: [
-                "https://facebook.com",
-                "https://instagram.com",
-              ],
+              sameAs: ["https://facebook.com", "https://instagram.com"],
             }),
           }}
         />
