@@ -3,6 +3,7 @@
 
 
 import Background from "../components/background";
+import Contact_Info from "../components/contact-info";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import { motion, AnimatePresence } from "framer-motion";
@@ -204,8 +205,8 @@ export default function Therapists() {
 
             </section>
 
-
-
+                
+            <Contact_Info/>
             <Footer />
         </main>
     );

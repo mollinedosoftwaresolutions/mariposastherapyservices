@@ -14,8 +14,8 @@ export default function Hero() {
                 <Image
                     src="/assets/logo1.png"
                     alt="Mariposas Therapy Services Logo"
-                    width={256}
-                    height={256}
+                    width={128}
+                    height={128}
                     loading="eager"
                     priority
                 />

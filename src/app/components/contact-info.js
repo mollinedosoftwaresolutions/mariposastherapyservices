@@ -1,11 +1,13 @@
 "use client"
+import { motion } from "framer-motion";
 export default function Contact_Info() {
     return (
         <section className="flex flex-col relative z-10 border-b border-white/20 bg-black/50 font-serif p-10 items-center">
 
-            <h1 className="text-lg font-semibold mb-8 text-center">
+            <motion.h1 
+            className="text-lg font-semibold mb-8 text-center">
                 Prefer to Reach Us Directly?
-            </h1>
+            </motion.h1>
 
             {/* ADDRESS */}
             <div className="flex flex-col md:flex-row items-center gap-2 mb-4 text-center md:text-left">

@@ -75,7 +75,6 @@ const metadata = {
     title: "Mariposas Therapy Services | Pediatric Physical, Occupational & Speech Therapy",
     description: "Compassionate pediatric therapy services including Physical Therapy, Occupational Therapy, and Speech Therapy in South Florida. Mariposas Therapy Services helps children grow, develop, and thrive with personalized care. | Terapias pediátricas en Miami: terapia física, ocupacional y del habla con atención cálida y profesional.",
     keywords: [
-        // English SEO keywords
         "pediatric therapy",
         "pediatric physical therapy",
         "pediatric occupational therapy",
@@ -89,7 +88,7 @@ const metadata = {
         "OT for kids",
         "SLP for kids",
         "Mariposas Therapy Services",
-        // Spanish keywords
+        // Spanish
         "terapia pediátrica",
         "terapia física pediátrica",
         "terapia ocupacional pediátrica",
@@ -107,14 +106,15 @@ const metadata = {
     ],
     creator: "Mariposas Therapy Services",
     publisher: "Mariposas Therapy Services",
-    metadataBase: new URL("https://mariposatherapyservices.com"),
+    // Use your Vercel URL until custom domain is active
+    metadataBase: new URL("https://mariposastherapyservices-2stt.vercel.app"),
     openGraph: {
         title: "Mariposas Therapy Services",
         description: "Pediatric Physical, Occupational & Speech Therapy helping children grow with care and compassion.",
-        url: "https://mariposatherapyservices.com",
+        url: "https://mariposastherapyservices-2stt.vercel.app",
         images: [
             {
-                url: "https://mariposatherapyservices.com/assets/logo.png",
+                url: "/assets/logo.png",
                 width: 800,
                 height: 800,
                 alt: "Mariposas Therapy Services Logo"
@@ -135,11 +135,11 @@ function RootLayout({ children }) {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "MedicalClinic",
-                            "@id": "https://mariposatherapyservices.com/#clinic",
+                            "@id": "https://mariposastherapyservices-2stt.vercel.app/#clinic",
                             name: "Mariposas Therapy Services",
-                            url: "https://mariposatherapyservices.com",
-                            logo: "https://mariposatherapyservices.com/assets/logo.png",
-                            image: "https://mariposatherapyservices.com/assets/logo.png",
+                            url: "https://mariposastherapyservices-2stt.vercel.app",
+                            logo: "/assets/logo.png",
+                            image: "/assets/logo.png",
                             description: "Pediatric Physical, Occupational & Speech Therapy providing compassionate, high-quality care for children in South Florida.",
                             telephone: "+1-786-576-8083",
                             email: "mariposatherapyservices@gmail.com",
@@ -169,25 +169,25 @@ function RootLayout({ children }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/app/layout.js",
-                    lineNumber: 71,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 69,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/layout.js",
-                lineNumber: 113,
+                lineNumber: 115,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/layout.js",
-        lineNumber: 68,
+        lineNumber: 72,
         columnNumber: 5
     }, this);
 }

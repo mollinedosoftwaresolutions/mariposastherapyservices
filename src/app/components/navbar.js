@@ -20,7 +20,7 @@ export default function Navbar() {
 
             <ul id="nav-links" className="hidden md:flex justify-center space-x-8 text-md font-serif font-bold text-[#0F3B1F]">
                 <a href="/" className="hover:text-white transition-colors duration-200">Home</a>
-                <a href="/#services" className="hover:text-white transition-colors duration-200">Services</a>
+                <a href="/services" className="hover:text-white transition-colors duration-200">Services</a>
                 <a href="/#contact" className="hover:text-white transition-colors duration-200">Contact</a>
                 <a href="/patients" className="hover:text-white transition-colors duration-200">Patients</a>
                 <a href="/therapists" className="hover:text-white transition-colors duration-200">Therapists</a>
@@ -41,7 +41,7 @@ export default function Navbar() {
       >
         <ul className="flex flex-col items-center space-y-4 p-4 text-[#0F3B1F] font-serif font-bold">
                 <a href="/" className="hover:text-white transition-colors duration-200">Home</a>
-                <a href="/#services" onClick={() => setMenuOpen(false)} className="hover:text-white transition-colors duration-200">Services</a>
+                <a href="/services" onClick={() => setMenuOpen(false)} className="hover:text-white transition-colors duration-200">Services</a>
                 <a href="/#contact" onClick={() => setMenuOpen(false)} className="hover:text-white transition-colors duration-200">Contact</a>
                 <a href="/patients" onClick={() => setMenuOpen(false)} className="hover:text-white transition-colors duration-200">Patients</a>
                 <a href="/therapists" onClick={() => setMenuOpen(false)} className="hover:text-white transition-colors duration-200">Therapists</a>

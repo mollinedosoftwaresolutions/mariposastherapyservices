@@ -97,6 +97,9 @@
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-scale-z: 1;
       --tw-space-y-reverse: 0;
       --tw-space-x-reverse: 0;
       --tw-border-style: solid;
@@ -128,9 +131,6 @@
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
     }
   }
 }
@@ -493,16 +493,8 @@
     margin-inline: calc(var(--spacing) * 4);
   }
 
-  .mx-6 {
-    margin-inline: calc(var(--spacing) * 6);
-  }
-
   .mx-10 {
     margin-inline: calc(var(--spacing) * 10);
-  }
-
-  .mx-12 {
-    margin-inline: calc(var(--spacing) * 12);
   }
 
   .mx-auto {
@@ -529,6 +521,14 @@
     margin-top: calc(var(--spacing) * 10);
   }
 
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
+
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
+
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
@@ -539,6 +539,10 @@
 
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
+  }
+
+  .block {
+    display: block;
   }
 
   .contents {
@@ -565,10 +569,6 @@
     height: calc(var(--spacing) * 5);
   }
 
-  .h-auto {
-    height: auto;
-  }
-
   .h-full {
     height: 100%;
   }
@@ -579,10 +579,6 @@
 
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-
-  .w-auto {
-    width: auto;
   }
 
   .w-full {
@@ -609,6 +605,13 @@
   .translate-y-0 {
     --tw-translate-y: calc(var(--spacing) * 0);
     translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+
+  .scale-75 {
+    --tw-scale-x: 75%;
+    --tw-scale-y: 75%;
+    --tw-scale-z: 75%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
   }
 
   .grid-cols-1 {
@@ -751,6 +754,10 @@
     background-color: lab(85.4077% -28.3893 27.186 / .8);
   }
 
+  .bg-black {
+    background-color: var(--color-black);
+  }
+
   .bg-black\/50 {
     background-color: #00000080;
   }
@@ -771,8 +778,16 @@
     }
   }
 
+  .object-contain {
+    object-fit: contain;
+  }
+
   .object-cover {
     object-fit: cover;
+  }
+
+  .object-center {
+    object-position: center;
   }
 
   .p-4 {
@@ -1031,6 +1046,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:block {
+      display: block;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:flex {
       display: flex;
     }
@@ -1045,6 +1066,15 @@
   @media (min-width: 48rem) {
     .md\:w-auto {
       width: auto;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:scale-90 {
+      --tw-scale-x: 90%;
+      --tw-scale-y: 90%;
+      --tw-scale-z: 90%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
     }
   }
 
@@ -1108,6 +1138,24 @@ body {
   syntax: "*";
   inherits: false;
   initial-value: 0;
+}
+
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
 }
 
 @property --tw-space-y-reverse {
@@ -1275,24 +1323,6 @@ body {
 @property --tw-ease {
   syntax: "*";
   inherits: false
-}
-
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
 }
 
 /*# sourceMappingURL=%5Broot-of-the-server%5D__a3dce129._.css.map*/
