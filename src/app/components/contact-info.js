@@ -18,7 +18,7 @@ export default function Contact_Info() {
                     rel="noopener noreferrer"
                     className="text-green-300 hover:text-white underline break-all"
                 >
-                    13190 SW 134 St, Miami, FL 33186
+                   11981 SW 144th Ct SUITE 101, Miami, FL 33186
                 </a>
             </div>
 
