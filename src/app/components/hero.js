@@ -12,7 +12,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
             >
                 <Image
-                    src="/assets/test.jpg"
+                    src="/assets/logo.jpg"
                     alt="Mariposas Therapy Services Logo"
                     width={128}
                     height={128}
